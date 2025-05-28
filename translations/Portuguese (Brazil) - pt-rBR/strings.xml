@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name_full" translatable="false">Game Server Control Panel</string>
+
+
+    <!--Actions-->
+    <string name="action_removeads">Remover ads</string>
+    <string name="action_ban">Ban</string>
+    <string name="action_kick">Kick</string>
+    <string name="action_mute">Mute</string>
+    <string name="action_steam">Perfil Steam</string>
+
+
+    <!--Server statuses-->
+    <string name="status_unknown">Desconhecido</string>
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+    <string name="status_restarting">Carregando/Reniciando</string>
+    <string name="status_refreshing">Carregando…</string>
+    <string name="status_error">Erro</string>
+
+
+    <!--Server implementation-->
+    <string name="game_goldsrc" translatable="false">GoldSource Engine</string>
+    <string name="game_source" translatable="false">Source Engine</string>
+    <string name="game_xash3d" translatable="false">Xash3D FWGS Engine</string>
+    <string name="game_ag" translatable="false">Adrenaline Gamer</string>
+    <string name="game_swarm" translatable="false">Alien Swarm</string>
+    <string name="game_ark" translatable="false">ARK: Survival Evolved</string>
+    <string name="game_cs" translatable="false">Counter-Strike</string>
+    <string name="game_czero" translatable="false">Counter-Strike: Condition Zero</string>
+    <string name="game_cstrike" translatable="false">Counter-Strike: Source</string>
+    <string name="game_csgo" translatable="false">Counter-Strike: Global Offensive</string>
+    <string name="game_cs2" translatable="false">Counter-Strike 2</string>
+    <string name="game_cure" translatable="false">Codename CURE</string>
+    <string name="game_hl" translatable="false">Half-Life</string>
+    <string name="game_hlop" translatable="false">Half-Life: Opposing Force</string>
+    <string name="game_dmc" translatable="false">Deathmatch Classic</string>
+    <string name="game_hl1mp" translatable="false">Half-Life Deathmatch: Source</string>
+    <string name="game_hl2dm" translatable="false">Half-Life 2: Deathmatch</string>
+    <string name="game_bms" translatable="false">Black Mesa</string>
+    <string name="game_dod" translatable="false">Day of Defeat</string>
+    <string name="game_dods" translatable="false">Day of Defeat: Source</string>
+    <string name="game_insurgency" translatable="false">Insurgency</string>
+    <string name="game_doi" translatable="false">Day of Infamy</string>
+    <string name="game_et" translatable="false">Wolfenstein: Enemy Territory</string>
+    <string name="game_synergy" translatable="false">Synergy</string>
+    <string name="game_svencoop" translatable="false">Sven Co-op</string>
+    <string name="game_terraria" translatable="false">Terraria</string>
+    <string name="game_tfc" translatable="false">Team Fortress Classic</string>
+    <string name="game_tf2" translatable="false">Team Fortress 2</string>
+    <string name="game_gmod" translatable="false">Garry\'s mod</string>
+    <string name="game_kf" translatable="false">Killing Floor</string>
+    <string name="game_kf2" translatable="false">Killing Floor 2</string>
+    <string name="game_l4d" translatable="false">Left 4 Dead</string>
+    <string name="game_l4d2" translatable="false">Left 4 Dead 2</string>
+    <string name="game_nmrih" translatable="false">No More Room in Hell</string>
+    <string name="game_palworld" translatable="false">Palworld</string>
+    <string name="game_quakew" translatable="false">Quake World</string>
+    <string name="game_quake2" translatable="false">Quake II</string>
+    <string name="game_quake3" translatable="false">Quake III Arena</string>
+    <string name="game_quakel" translatable="false">Quake Live</string>
+    <string name="game_samp" translatable="false">San Andreas Multiplayer</string>
+    <string name="game_sandstorm" translatable="false">Insurgency: Sandstorm</string>
+    <string name="game_valheim" translatable="false">Valheim</string>
+    <string name="game_zomboid" translatable="false">Project Zomboid</string>
+    <string name="game_zps" translatable="false">Zombie Panic! Source</string>
+
+    <string name="game_indicator_basic_info">Informações básicas do servidor</string>
+    <string name="game_indicator_version_checking">Alerta de servidor desatualizado</string>
+    <string name="game_indicator_console">Console</string>
+    <string name="game_indicator_console_autocomplete">Console autocomplete e lista de cvars</string>
+    <string name="game_indicator_performance">Recursos usados</string>
+    <string name="game_indicator_map_change">Trocar mapa</string>
+    <string name="game_indicator_players_info">Informações estendidas dos jogadores</string>
+    <string name="game_indicator_players_actions">Ban/Kick/Mute</string>
+    <string name="game_indicator_log_listen">Logs</string>
+    <string name="game_indicator_chat">Chat</string>
+    <string name="game_indicator_addons_manager">Gerenciador de addons</string>
+
+    <string name="os_win" translatable="false">Windows</string>
+    <string name="os_linux" translatable="false">Linux</string>
+    <string name="os_mac" translatable="false">MacOS</string>
+    <string name="os_unknown" tools:ignore="MissingTranslation">@string/o_action_unknown</string>
+
+    <string name="any_type_auto">Autoselect</string>
+    <string name="any_type_engine">Engine</string>
+    <string name="any_type_sm" translatable="false">SourceMod</string>
+    <string name="any_type_amx" translatable="false">Amxmod</string>
+    <string name="any_type_ulx" translatable="false">Ulysses mod</string>
+    <string name="any_type_as" translatable="false">Admin system</string>
+    <string name="any_type_iks" translatable="false">Iks Admin</string>
+    <string name="any_type_sa" translatable="false">CSSharp Panel/SimpleAdmin</string>
+
+    <string name="mapchange_type_auto" tools:ignore="MissingTranslation">@string/any_type_auto</string>
+    <string name="mapchange_type_engine" tools:ignore="MissingTranslation">@string/any_type_engine</string>
+    <string name="mapchange_type_sm" tools:ignore="MissingTranslation">@string/any_type_sm</string>
+    <string name="mapchange_type_amx" tools:ignore="MissingTranslation">@string/any_type_amx</string>
+    <string name="mapchange_type_ulx" tools:ignore="MissingTranslation">@string/any_type_ulx</string>
+    <string name="mapchange_type_as" tools:ignore="MissingTranslation">@string/any_type_as</string>
+    <string name="mapchange_type_iks" tools:ignore="MissingTranslation">@string/any_type_iks</string>
+    <string name="mapchange_type_sa" tools:ignore="MissingTranslation">@string/any_type_sa</string>
+    <string name="mapchange_type_hosting" translatable="false">Hosting API</string>
+
+    <string name="mapchange_storage_local">Local</string>
+    <string name="mapchange_storage_workshop" translatable="false">Workshop</string>
+
+    <string name="ban_mode_id" translatable="false">ID</string>
+    <string name="ban_mode_steam" translatable="false">SteamID</string>
+    <string name="ban_mode_name_ip">Nome e IP</string>
+    <string name="ban_mode_name">Nome</string>
+    <string name="ban_mode_ip" translatable="false">IP</string>
+    <string name="ban_mode_xashid" translatable="false">XashID</string>
+
+    <string name="ban_type_auto" tools:ignore="MissingTranslation">@string/any_type_auto</string>
+    <string name="ban_type_engine" tools:ignore="MissingTranslation">@string/any_type_engine</string>
+    <string name="ban_type_sm" tools:ignore="MissingTranslation">@string/any_type_sm</string>
+    <string name="ban_type_amx" tools:ignore="MissingTranslation">@string/any_type_amx</string>
+    <string name="ban_type_amxb" translatable="false">AmxBans 6.x/AmxBans # Gm 1.5</string>
+    <string name="ban_type_amxbgm" translatable="false">AmxBans 5.x/AmxBans # Gm 1.6</string>
+    <string name="ban_type_fresh" translatable="false">FreshBans</string>
+    <string name="ban_type_ulx" tools:ignore="MissingTranslation">@string/any_type_ulx</string>
+    <string name="ban_type_as" tools:ignore="MissingTranslation">@string/any_type_as</string>
+    <string name="ban_type_iks" tools:ignore="MissingTranslation">@string/any_type_iks</string>
+    <string name="ban_type_sa" tools:ignore="MissingTranslation">@string/any_type_sa</string>
+
+    <string name="kick_type_auto" tools:ignore="MissingTranslation">@string/any_type_auto</string>
+    <string name="kick_type_engine" tools:ignore="MissingTranslation">@string/any_type_engine</string>
+    <string name="kick_type_sm" tools:ignore="MissingTranslation">@string/any_type_sm</string>
+    <string name="kick_type_amx" tools:ignore="MissingTranslation">@string/any_type_amx</string>
+    <string name="kick_type_ulx" tools:ignore="MissingTranslation">@string/any_type_ulx</string>
+    <string name="kick_type_as" tools:ignore="MissingTranslation">@string/any_type_as</string>
+    <string name="kick_type_iks" tools:ignore="MissingTranslation">@string/any_type_iks</string>
+    <string name="kick_type_sa" tools:ignore="MissingTranslation">@string/any_type_sa</string>
+
+    <string name="mute_mode_both">Ambos</string>
+    <string name="mute_mode_voice">Voz</string>
+    <string name="mute_mode_chat">Chat</string>
+
+    <string name="mute_type_auto" tools:ignore="MissingTranslation">@string/any_type_auto</string>
+    <string name="mute_type_engine" tools:ignore="MissingTranslation">@string/any_type_engine</string>
+    <string name="mute_type_sm" tools:ignore="MissingTranslation">@string/any_type_sm</string>
+    <string name="mute_type_sc" translatable="false">Sourcecomms/Sourcebans++</string>
+    <string name="mute_type_ulx" tools:ignore="MissingTranslation">@string/any_type_ulx</string>
+    <string name="mute_type_amx" translatable="false">AMXX Gag</string>
+    <string name="mute_type_gagme" translatable="false">Gag Me</string>
+    <string name="mute_type_ca" translatable="false">Chat Additions</string>
+    <string name="mute_type_as" tools:ignore="MissingTranslation">@string/any_type_as</string>
+    <string name="mute_type_iks" tools:ignore="MissingTranslation">@string/any_type_iks</string>
+    <string name="mute_type_sa" tools:ignore="MissingTranslation">@string/any_type_sa</string>
+
+    <string name="host_myarena" translatable="false">Myarena.ru</string>
+    <string name="host_cshost" translatable="false">CSHost.com.ua</string>
+    <string name="host_cwserv" translatable="false">CW-SERV.RU</string>
+    <string name="host_ogp" translatable="false">Open Game Panel</string>
+    <string name="host_pter" translatable="false">Pterodactyl Panel</string>
+    <string name="host_puffer" translatable="false">PufferPanel</string>
+    <string name="host_vulpecula" translatable="false">Vulpecula.HOST</string>
+
+    <string name="host_indicator_extra_info">Informações extras do servidor</string>
+    <string name="host_indicator_console" tools:ignore="MissingTranslation">@string/game_indicator_console</string>
+    <string name="host_indicator_server_actions">Iniciar/reiniciar/parar servidor</string>
+    <string name="host_indicator_performance" tools:ignore="MissingTranslation">@string/game_indicator_performance</string>
+    <string name="host_indicator_map_change" tools:ignore="MissingTranslation">@string/game_indicator_map_change</string>
+
+    <string name="parsed_error_conn">Falha ao conectar</string>
+    <string name="parsed_error_auth">Erro de autorização</string>
+    <string name="parsed_error_ban">Banido pelo servidor</string>
+    <string name="parsed_error_gamenotfound">Conteúdo do servidor não encontrado</string>
+    <string name="parsed_error_cmd">Comando desconhecido</string>
+    <string name="parsed_error_token">Chave inválida</string>
+    <string name="parsed_error_url">URL inválida</string>
+    <string name="parsed_error_invalid_response_api">Resposta de API inválida</string>
+    <string name="parsed_error_invalid_response_server">Resposta de servidor inválida</string>
+    <string name="parsed_error_empty_response">Resposta vaziae</string>
+    <string name="parsed_error_wronggameorban">ogo errado ou\n Banido pelo servidor</string>
+    <string name="parsed_error_invalidip">IP inválido</string>
+    <string name="parsed_error_invalidport">Porta inválida</string>
+    <string name="parsed_error_hosting">Erro de API</string>
+    <string name="parsed_error_unknownpacket">Pacote desconhecido</string>
+    <string name="parsed_error_unknown">Erro desconhecido</string>
+    <string name="parsed_error_reasonmsg">Motivo: %1$s</string>
+
+    <string name="console_error_status">Para iniciar o console o servidor deve estar online</string>
+    <string name="console_error_network" tools:ignore="MissingTranslation">@string/listener_log_error_network</string>
+
+    <string name="listener_log_info_checking_network">Verificando a rede</string>
+    <string name="listener_log_info_finding_ip">Obtendo o IP público do dispositivo</string>
+    <string name="listener_log_info_opening_port">Abrindo porta</string>
+    <string name="listener_log_info_enabling_sending">Ativando o envio de logs do servidor</string>
+    <string name="listener_log_info_disabling_sending">Desativando o envio de logs do servidor</string>
+    <string name="listener_log_info_listening">Lendo…</string>
+    <string name="listener_log_info_chat_message">Mensagem enviada: %s</string>
+    <string name="listener_log_warm_invalid_packet">Pacote inválido recebido %s</string>
+    <string name="listener_log_warn_opening_port">Ative o UPnP no roteador ou abra a porta manualmente</string>
+    <string name="listener_log_error_disabling_sending">Falha ao desativar o envio de logs do servidor</string>
+    <string name="listener_log_error_start_service">Falha ao iniciar o serviço de leitura de logs</string>
+    <string name="listener_log_error_status">Para ler os logs, o servidor deve estar online</string>
+    <string name="listener_log_error_wifi">Para ler os logs, conecte-se ao Wi-Fi</string>
+    <string name="listener_log_error_network">Sem conexão de rede</string>
+    <string name="listener_log_error_public_ip">Falha ao obter o endereço IP público</string>
+    <string name="listener_log_error_opening_port">Falha ao abrir a porta%s</string>
+    <string name="listener_log_error_port">A porta de rede está sendo usada por outro aplicativo</string>
+    <string name="listener_log_error_listening_add">Falha ao adicionar o IP do dispositivo para escuta</string>
+    <string name="listener_log_error_while_listening">Ocorreu um erro ao escutar os logs</string>
+
+    <string name="listener_log_error_unknown" tools:ignore="MissingTranslation">@string/parsed_error_unknown</string>
+
+    <string name="chat_message_command_tag_engine" translatable="false">say</string>
+    <string name="chat_message_command_name_engine">Engine chat</string>
+    <string name="chat_message_command_tag_source_sm_chat" translatable="false">sm_say</string>
+    <string name="chat_message_command_name_source_sm_chat">SourceMod chat</string>
+    <string name="chat_message_command_tag_source_sm_msg" translatable="false">sm_tsay</string>
+    <string name="chat_message_command_name_source_sm_msg">SourceMod top-left</string>
+    <string name="chat_message_command_tag_source_sm_hint" translatable="false">sm_hsay</string>
+    <string name="chat_message_command_name_source_sm_hint">SourceMod hint</string>
+    <string name="chat_message_command_tag_source_sm_center" translatable="false">sm_csay</string>
+    <string name="chat_message_command_name_source_sm_center">SourceMod centered</string>
+    <string name="chat_message_command_tag_source_sm_menu" translatable="false">sm_msay</string>
+    <string name="chat_message_command_name_source_sm_menu">SourceMod menu</string>
+    <string name="chat_message_command_tag_source_ulx_chat" translatable="false">ulx csay</string>
+    <string name="chat_message_command_name_source_ulx_chat">ULX chat</string>
+    <string name="chat_message_command_tag_source_ulx_center" translatable="false">ulx tsay</string>
+    <string name="chat_message_command_name_source_ulx_center">ULX centered</string>
+    <string name="chat_message_command_tag_source_ulx_admins" translatable="false">ulx asay</string>
+    <string name="chat_message_command_name_source_ulx_admins">To ULX admins</string>
+    <string name="chat_message_command_tag_goldsrc_amx_chat" translatable="false">amx_say</string>
+    <string name="chat_message_command_name_goldsrc_amx_chat">AMX chat</string>
+    <string name="chat_message_command_tag_goldsrc_amx_center" translatable="false">amx_csay</string>
+    <string name="chat_message_command_name_goldsrc_amx_center">AMX centered</string>
+    <string name="chat_message_command_tag_goldsrc_amx_msg" translatable="false">amx_tsay</string>
+    <string name="chat_message_command_name_goldsrc_amx_msg">AMX left side</string>
+    <string name="chat_message_command_tag_goldsrc_amx_admins" translatable="false">amx_chat</string>
+    <string name="chat_message_command_name_goldsrc_amx_admins">To AMX admins</string>
+    <string name="chat_message_command_tag_cs2_as_center" translatable="false">mm_csay</string>
+    <string name="chat_message_command_name_cs2_as_center">Admin system centered</string>
+    <string name="chat_message_command_tag_cs2_as_hud" translatable="false">mm_hsay</string>
+    <string name="chat_message_command_name_cs2_as_hud">Admin system HUD</string>
+    <string name="chat_message_command_tag_cs2_sa_chat" translatable="false">css_say</string>
+    <string name="chat_message_command_name_cs2_sa_chat">CSSharp Panel/SimpleAdmin chat</string>
+    <string name="chat_message_command_tag_cs2_sa_center" translatable="false">css_csay</string>
+    <string name="chat_message_command_name_cs2_sa_center">CSSharp Panel/SimpleAdmin centered</string>
+    <string name="chat_message_command_tag_cs2_sa_hud" translatable="false">css_hsay</string>
+    <string name="chat_message_command_name_cs2_sa_hud">CSSharp Panel/SimpleAdmin HUD</string>
+    <string name="chat_message_command_tag_cs2_sa_admins" translatable="false">css_asay</string>
+    <string name="chat_message_command_name_cs2_sa_admins">To CSSharp Panel/SimpleAdmin admins</string>
+
+    <string name="chat_message_team_console">Console</string>
+    <string name="chat_message_team_spectators">Espectadores</string>
+    <string name="chat_message_team_black_mesa">Black Mesa</string>
+    <string name="chat_message_team_opposing_force">Força Oponente</string>
+    <string name="chat_message_team_scientists">Cientistas</string>
+    <string name="chat_message_team_hecu">HECU</string>
+    <string name="chat_message_team_combine">Combine</string>
+    <string name="chat_message_team_rebels">Rebeldes</string>
+    <string name="chat_message_team_terrorists">Terroristas</string>
+    <string name="chat_message_team_counter_terrorists">Contra-Terroristas</string>
+    <string name="chat_message_team_blue">Azul</string>
+    <string name="chat_message_team_red">Vermelho</string>
+    <string name="chat_message_team_allies">Aliados</string>
+    <string name="chat_message_team_axis">Eixo</string>
+    <string name="chat_message_team_german_army">Exército Alemão</string>
+    <string name="chat_message_team_americans">Americanos</string>
+    <string name="chat_message_team_commonwealth">Commonwealth</string>
+    <string name="chat_message_team_security">Segurança</string>
+    <string name="chat_message_team_insurgents">Insurgentes</string>
+    <string name="chat_message_team_survivors">Sobreviventes</string>
+    <string name="chat_message_team_infected">Infectados</string>
+    <string name="chat_message_team_zombies">Zumbis</string>
+
+    <string name="chat_message_team_cure">Cure</string>
+    <string name="chat_message_team_sas">SAS</string>
+
+    <string name="addons_title_text_vsp" translatable="false">Valve Server Plugins</string>
+    <string name="addons_title_logo_vsp" translatable="false">@string/addons_title_text_vsp</string>
+    <string name="addons_title_text_mms" translatable="false">Metamod:Source</string>
+    <string name="addons_title_logo_mms" translatable="false">METAMOD SOURCE</string>
+    <string name="addons_title_text_sm" translatable="false">SourceMod</string>
+    <string name="addons_title_logo_sm" translatable="false">SOURCEMOD</string>
+    <string name="addons_title_text_sp" translatable="false">Source.Python</string>
+    <string name="addons_title_logo_sp" translatable="false">@string/addons_title_text_sp</string>
+    <string name="addons_title_text_css" translatable="false">CounterStrikeSharp</string>
+    <string name="addons_title_logo_css" translatable="false">@string/addons_title_text_css</string>
+    <string name="addons_title_text_mm" translatable="false">Metamod</string>
+    <string name="addons_title_logo_mm" translatable="false">METAMOD</string>
+    <string name="addons_title_text_amx" translatable="false">AMX Mod X</string>
+    <string name="addons_title_logo_amx" translatable="false">λMX Mod X</string>
+    <string name="addons_action_dialog_hint_vsp" tools:ignore="MissingTranslation">@string/addons_fields_base_file_name</string>
+    <string name="addons_action_dialog_hint_mms" tools:ignore="MissingTranslation">@string/addons_fields_base_file_name</string>
+    <string name="addons_action_dialog_hint_sm" tools:ignore="MissingTranslation">@string/addons_fields_base_file_name</string>
+    <string name="addons_action_dialog_hint_sp" tools:ignore="MissingTranslation">@string/addons_fields_sp_folder_name</string>
+    <string name="addons_action_dialog_hint_mm" tools:ignore="MissingTranslation">@string/addons_fields_base_file_path</string>
+    <string name="addons_addon_action_load_extension">Carregar extensão</string>
+    <string name="addons_addon_action_load_plugin">Carregar plugin</string>
+    <string name="addons_addon_action_unload_all_plugins">Descarregar todos os plugins</string>
+    <string name="addons_addon_action_pause_all_plugins">Pausar todos os plugins</string>
+    <string name="addons_addon_action_unpause_all_plugins">Retomar todos os plugins</string>
+    <string name="addons_addon_action_refresh_all_plugins">Atualizar todos os plugins</string>
+    <string name="addons_addon_action_reload_all_plugins">Recarregar todos os plugins</string>
+    <string name="addons_addon_action_upgrade">Atualizar addon</string>
+    <string name="addons_subaddon_type_extension">Extensões</string>
+    <string name="addons_subaddon_type_module">Módulos</string>
+    <string name="addons_subaddon_type_plugin">Plugins</string>
+    <string name="addons_subaddon_action_pause">Pausar</string>
+    <string name="addons_subaddon_action_unpause">Retomar</string>
+    <string name="addons_subaddon_action_reload">Recarregar</string>
+    <string name="addons_subaddon_action_unload">Descarregar</string>
+    <string name="addons_subaddon_action_force_unload">Forçar descarregamento</string>
+    <string name="addons_subaddon_action_clear">Limpar</string>
+    <string name="addons_subaddon_state_running">Em execução</string>
+    <string name="addons_subaddon_state_debug">Depuração</string>
+    <string name="addons_subaddon_state_paused">Pausado</string>
+    <string name="addons_subaddon_state_stopped">Parado</string>
+    <string name="addons_subaddon_state_error">Erro ao carregar</string>
+    <string name="addons_subaddon_state_unknown">Desconhecido</string>
+    <string name="addons_fields_base_name">Nome</string>
+    <string name="addons_fields_base_description">Descrição</string>
+    <string name="addons_fields_base_status">Status</string>
+    <string name="addons_fields_base_status_reason">Motivo do status</string>
+    <string name="addons_fields_base_author">Autor</string>
+    <string name="addons_fields_base_authors">Autores</string>
+    <string name="addons_fields_base_error_reason">Motivo do erro</string>
+    <string name="addons_fields_base_addon_version">Versão do addon</string>
+    <string name="addons_fields_base_plugin_version">Versão do plugin</string>
+    <string name="addons_fields_base_api_version">Versão da API</string>
+    <string name="addons_fields_base_build_id">ID da build</string>
+    <string name="addons_fields_base_build_from">Compilado a partir de</string>
+    <string name="addons_fields_base_build_date">Data da build</string>
+    <string name="addons_fields_base_file_name">Nome do arquivo</string>
+    <string name="addons_fields_base_file_path">Caminho do arquivo</string>
+    <string name="addons_fields_base_url">URL</string>
+    <string name="addons_fields_mms_interface_version">Versão da interface do plugin</string>
+    <string name="addons_fields_mms_sourcehook_version">Versão do SourceHook</string>
+    <string name="addons_fields_mms_loaded">Carregado como</string>
+    <string name="addons_fields_mms_license">Licença</string>
+    <string name="addons_fields_sm_spe_version">Versão do motor SourcePawn</string>
+    <string name="addons_fields_sm_spa_version">Versão da API SourcePawn</string>
+    <string name="addons_fields_sm_ext_version">Versão da extensão</string>
+    <string name="addons_fields_sm_loaded">Carregado</string>
+    <string name="addons_fields_sm_load_method">Método de carregamento</string>
+    <string name="addons_fields_sm_hash">Hash</string>
+    <string name="addons_fields_sm_reason">Motivo</string>
+
+    <!--Servers List-->
+    <string name="srvlist_title">Servers list</string>
+    <string name="srvlist_subtitle">Total players: %1$d/%2$d</string>
+    <string name="srvlist_subtitleb">Total players: %1$d(+%3$d)/%2$d</string>
+    <string name="srvlist_empty">Servers list is empty</string>
+    <string name="srvlist_error_db_text">An error occurred while loading the servers list</string>
+    <string name="srvlist_error_db_btn">Clear database</string>
+
+    <string name="srvlist_item_ip" translatable="false">IP: %1$s:%2$d</string>
+    <string name="srvlist_item_ping">Ping: %1$d ms</string>
+    <string name="srvlist_item_map">Map: %1$s</string>
+    <string name="srvlist_item_players">Players: %1$d/%2$d</string>
+    <string name="srvlist_item_playersb">Players: %1$d(+%3$d)/%2$d</string>
+    <string name="srvlist_item_updated">Updated: %1$s</string>
+    <string name="srvlist_item_deleted">Server removed</string>
+    <string name="srvlist_item_delete_error">Failed to remove the server</string>
+
+    <string name="srvlist_snackbar_restart_title">An update has just been downloaded</string>
+    <string name="srvlist_snackbar_restart_action">Restart</string>
+
+
+    <!--Server edit-->
+    <string name="srvedit_title_add">Add server</string>
+    <string name="srvedit_title_edit">Edit server</string>
+
+    <string name="srvedit_btn_copy">Copy settings of another server</string>
+
+    <string name="srvedit_group_main">Main</string>
+    <string name="srvedit_txt_ip" translatable="false">IP</string>
+    <string name="srvedit_txt_port">Port</string>
+    <string name="srvedit_txt_game">Game</string>
+    <string name="srvedit_txt_rcon">RCON password</string>
+    <string name="srvedit_txt_rconPort">RCON port</string>
+
+    <string name="srvedit_group_web">Web server</string>
+    <string name="srvedit_txt_web_ip" translatable="false">@string/srvedit_txt_ip</string>
+    <string name="srvedit_txt_web_port" translatable="false">@string/srvedit_txt_port</string>
+    <string name="srvedit_txt_web_login">Login</string>
+    <string name="srvedit_txt_web_pass">Password</string>
+
+    <string name="srvedit_group_ftp" translatable="false">FTP</string>
+    <string name="srvedit_txt_ftp_ip" translatable="false">@string/srvedit_txt_ip</string>
+    <string name="srvedit_txt_ftp_port">Port</string>
+    <string name="srvedit_txt_ftp_user">User</string>
+    <string name="srvedit_txt_ftp_pass" translatable="false">@string/srvedit_txt_web_pass</string>
+    <string name="srvedit_txt_ftp_path">Path to server content (folder \"%1$s\")</string>
+
+    <string name="srvedit_group_host">API key</string>
+    <string name="srvedit_spn_host_type" translatable="false">API</string>
+    <string name="srvedit_txt_host_url" translatable="false">URL</string>
+    <string name="srvedit_txt_host_oauth_id">OAuth2 client ID</string>
+    <string name="srvedit_txt_host_oauth_secret">OAuth2 client secret</string>
+    <string name="srvedit_txt_host_container_id">Server ID</string>
+    <string name="srvedit_txt_host_container_id_helper">Contained in the CP URL (if account has all perms, the field will be filled automatically after API check)</string>
+    <string name="srvedit_txt_host_container_name">Server name</string>
+    <string name="srvedit_txt_host_container_name_helper">Optional field if Server ID is filled</string>
+    <string name="srvedit_txt_host_ip" translatable="false">@string/srvedit_txt_ip</string>
+    <string name="srvedit_txt_host_port" translatable="false">@string/srvedit_txt_port</string>
+    <string name="srvedit_txt_host_key">Key</string>
+    <string name="srvedit_txt_host_key_helper">Only if you use this hosting</string>
+    <string name="srvedit_btn_qrcode">QR Code</string>
+
+    <string name="srvedit_group_extra">Extra</string>
+    <string name="srvedit_txt_color">Server Color</string>
+    <string name="srvedit_switch_compactplayers">Compact players list</string>
+    <string name="srvedit_switch_hideplayers">Hide bots in the players list</string>
+    <string name="srvedit_switch_checkversion">Alert if server is outdated</string>
+    <string name="srvedit_switch_listenlogs">Log listening</string>
+    <string name="srvedit_switch_chat">Chat</string>
+    <string name="srvedit_txt_fastcmds">RCON shortcuts</string>
+    <string name="srvedit_txt_appid" translatable="false">AppID</string>
+    <string name="srvedit_txt_appid_description">ID to check server version</string>
+    <string name="srvedit_txt_name_format" translatable="false">%1$s_%2$s:%3$d</string>
+    <string name="srvedit_btn_fastcmds_recreate">Restore default list</string>
+
+    <string name="srvedit_txt_error_empty">Field must not be empty</string>
+    <string name="srvedit_txt_error_greater">Field must be greater than %1$d</string>
+    <string name="srvedit_txt_error_less">Field must be less than %1$d</string>
+    <string name="srvedit_error_save">An error occurred while saving the server</string>
+    <string name="srvedit_error_invalidopen">Incorrect attempt to open server add/edit screen</string>
+    <string name="srvedit_warning_port">This feature works only when connected to the network via WI-FI. In addition, you need to open port %1$d on the router.</string>
+
+    <string name="srvedit_btn_title">Check</string>
+    <string name="srvedit_btn_host_title">Check API Key</string>
+    <string name="srvedit_btn_progress">Loading</string>
+    <string name="srvedit_btn_ok">Success</string>
+
+
+    <!--QR Code Scanner-->
+    <string name="camera_title">QR code scanner</string>
+    <string name="camera_permsdenide">Unable to access camera</string>
+    <string name="camera_error">An error occurred when requesting permission</string>
+    <string name="camera_notfound">Camera not found</string>
+
+
+    <!--Server Control-->
+    <string name="srvctrl_srvinfo_status">Status: %1$s</string>
+    <string name="srvctrl_srvinfo_renta">Rental expires in:</string>
+
+    <string name="srvctrl_menu_tooltip">Server Control</string>
+    <string name="srvctrl_menu_start">Start</string>
+    <string name="srvctrl_menu_restart">Restart</string>
+    <string name="srvctrl_menu_stop">Stop</string>
+    <string name="srvctrl_menu_stop_force">Force stop</string>
+    <string name="srvctrl_menu_map">Change map</string>
+    <string name="srvctrl_menu_fullrefresh">Full refresh</string>
+    <string name="srvctrl_menu_edit" tools:ignore="MissingTranslation">@string/o_action_edit</string>
+
+    <string name="srvctrl_snackbar_restart_title" tools:ignore="MissingTranslation">@string/srvlist_snackbar_restart_title</string>
+    <string name="srvctrl_snackbar_restart_action" tools:ignore="MissingTranslation">@string/srvlist_snackbar_restart_action</string>
+
+    <string name="srvctrl_error_request">Request failed</string>
+    <string name="srvctrl_error_response" tools:ignore="MissingTranslation">@string/parsed_error_invalid_response_api</string>
+    <string name="srvctrl_error_token" tools:ignore="MissingTranslation">@string/parsed_error_token</string>
+    <string name="srvctrl_error_invaliddata">An error occurred while loading data</string>
+    <string name="srvctrl_error_invalidserver">Invalid attempt to open a server CP</string>
+    <string name="srvctrl_error_unknownmap">Map with that name not found</string>
+    <string name="srvctrl_error_unknowncommand">Unknown console command</string>
+    <string name="srvctrl_success_start">Server is starting</string>
+    <string name="srvctrl_success_restart">Server is restarting</string>
+
+    <string name="srvctrl_players_sort">Sorting</string>
+    <string name="srvctrl_players_sort_ascending">Sort Ascending</string>
+    <string name="srvctrl_players_sort_nickname">Nickname</string>
+    <string name="srvctrl_players_sort_score">Score</string>
+    <string name="srvctrl_players_sort_time">Duration</string>
+    <string name="srvctrl_players_sort_ping">Ping</string>
+    <string name="srvctrl_players_empty">Server is empty</string>
+    <string name="srvctrl_players_error">Failed to load player list</string>
+    <string name="srvctrl_players_index">Index: %1$s</string>
+    <string name="srvctrl_players_score">Score: %1$s</string>
+    <string name="srvctrl_players_kills">Kills: %1$s</string>
+    <string name="srvctrl_players_deaths">Deaths: %1$s</string>
+    <string name="srvctrl_players_steamid" translatable="false">SteamID: %1$s</string>
+    <string name="srvctrl_players_ip" translatable="false">IP: %1$s</string>
+    <string name="srvctrl_players_time">Time: %1$s</string>
+    <string name="srvctrl_players_ping">Ping: %1$s ms</string>
+    <string name="srvctrl_players_isbot">Bot</string>
+    <string name="srvctrl_players_reqsended">Request sended</string>
+
+    <string name="srvctrl_console_edit">Command</string>
+    <string name="srvctrl_console_action_send">Send</string>
+    <string name="srvctrl_console_action_props" tools:ignore="MissingTranslation">@string/dialog_console_props_title</string>
+    <string name="srvctrl_console_sended">Command sended</string>
+
+    <string name="srvctrl_addons_not_found">Addons not found</string>
+
+    <string name="srvctrl_info_query_title">Monitoring</string>
+    <string name="srvctrl_info_query_copy">Value copied to clipboard</string>
+    <string name="srvctrl_info_query_copyerror">Unable to copy value to the clipboard</string>
+    <string name="srvctrl_info_query_ip" translatable="false">IP</string>
+    <string name="srvctrl_info_query_gamename">Game name/description</string>
+    <string name="srvctrl_info_query_game">Game</string>
+    <string name="srvctrl_info_query_os">Operating system</string>
+    <string name="srvctrl_info_query_anticheat">Anti-Cheat</string>
+    <string name="srvctrl_info_query_pass">Password</string>
+    <string name="srvctrl_info_query_version">Version</string>
+    <string name="srvctrl_info_query_id" translatable="false">ID</string>
+    <string name="srvctrl_info_query_location">Location</string>
+    <string name="srvctrl_info_query_unknown" tools:ignore="MissingTranslation">@string/o_action_unknown</string>
+    <string name="srvctrl_info_query_type">Type</string>
+    <string name="srvctrl_info_query_blockdate">Rental end date</string>
+    <string name="srvctrl_info_query_realip">Real IP</string>
+    <string name="srvctrl_info_query_gameid">Game ID/Folder</string>
+    <string name="srvctrl_info_query_mapscount">Maps Count</string>
+    <string name="srvctrl_info_query_cvarscount">Cvars count</string>
+    <string name="srvctrl_info_query_lastfullrefresh">Last full refresh</string>
+    <string name="srvctrl_info_query_rcon" translatable="false">RCON</string>
+    <string name="srvctrl_info_query_api">Hosting API</string>
+    <string name="srvctrl_info_query_mm" translatable="false">Metamod</string>
+    <string name="srvctrl_info_query_amx" translatable="false">Amxmod</string>
+    <string name="srvctrl_info_query_amxxgag" translatable="false">AMXX Gag</string>
+    <string name="srvctrl_info_query_gagme" translatable="false">Gag Me</string>
+    <string name="srvctrl_info_query_ca" translatable="false">Chat Additions</string>
+    <string name="srvctrl_info_query_sm" translatable="false">SourceMod</string>
+    <string name="srvctrl_info_query_sc" translatable="false">Sourcecomms/SourceBans++</string>
+    <string name="srvctrl_info_query_ulx" translatable="false">Ulxmod</string>
+    <string name="srvctrl_info_query_sp" translatable="false">Source.Python</string>
+    <string name="srvctrl_info_query_css" translatable="false">CounterStrikeSharp</string>
+    <string name="srvctrl_info_query_as" translatable="false">Admin system</string>
+
+    <string name="srvctrl_info_perfs_title">Resources</string>
+    <string name="srvctrl_info_perfs_cpu">CPU</string>
+    <string name="srvctrl_info_perfs_ram">RAM</string>
+    <string name="srvctrl_info_perfs_rom">Storage</string>
+    <string name="srvctrl_info_perfs_intraff">Incoming traffic</string>
+    <string name="srvctrl_info_perfs_outtraff">Outbound traffic</string>
+    <string name="srvctrl_info_perfs_traffic_size">%1$.2f (KB/s)</string>
+    <string name="srvctrl_info_perfs_fps" translatable="false">FPS</string>
+    <string name="srvctrl_info_perfs_uptime">Uptime</string>
+    <string name="srvctrl_info_perfs_connects">Connects</string>
+    <string name="srvctrl_info_perfs_data_size_full">%1$d/%2$d MB (%3$d%%)</string>
+    <string name="srvctrl_info_perfs_data_size_mb">%d MB</string>
+    <string name="srvctrl_info_perfs_error">Failed to load info about used resources.</string>
+
+    <string name="srvctrl_info_cmds_title">Commands</string>
+    <string name="srvctrl_info_cmds_notfound">Server commands not found</string>
+    <string name="srvctrl_info_cmds_copy">Command copied to clipboard</string>
+    <string name="srvctrl_info_cmds_copyerror">Unable to copy command to the clipboard</string>
+
+    <string name="srvctrl_info_vars_title">Variables</string>
+    <string name="srvctrl_info_vars_error">Failed to get server variables list</string>
+    <string name="srvctrl_info_vars_notfound">Server variables not found</string>
+    <string name="srvctrl_info_vars_copy">Variable name copied to clipboard</string>
+    <string name="srvctrl_info_vars_copyerror">Unable to copy variable name to the clipboard</string>
+
+    <string name="srvctrl_activities_log_title">Log</string>
+    <string name="srvctrl_activities_log_date">Date</string>
+    <string name="srvctrl_activities_log_time">Time</string>
+    <string name="srvctrl_activities_log_wrap">Linewrap</string>
+    <string name="srvctrl_activities_log_tag_debug">DEBUG</string>
+    <string name="srvctrl_activities_log_tag_info">INFO</string>
+    <string name="srvctrl_activities_log_tag_warning">WARN</string>
+    <string name="srvctrl_activities_log_tag_error">ERROR</string>
+    <string name="srvctrl_activities_chat_title">Chat</string>
+    <string name="srvctrl_activities_chat_message_change_name" formatted="false">Player %1$s changed name to %2$s</string>
+    <string name="srvctrl_activities_chat_message_connected_bot" formatted="false">Bot %s has joined the game</string>
+    <string name="srvctrl_activities_chat_message_connected_human" formatted="false">Player %s has joined the game</string>
+    <string name="srvctrl_activities_chat_message_disconnected_bot" formatted="false">Bot %1$s left the game%2$s</string>
+    <string name="srvctrl_activities_chat_message_disconnected_human" formatted="false">Player %1$s left the game%2$s</string>
+    <string name="srvctrl_activities_chat_field_hint">Message</string>
+    <string name="srvctrl_activities_chat_button_tooltip" tools:ignore="MissingTranslation">@string/srvctrl_console_action_send</string>
+    <string name="srvctrl_activities_chat_empty">No messages have been received yet</string>
+    <string name="srvctrl_activities_chat_error_log">Log listening is not currently active</string>
+    <string name="srvctrl_activities_chat_error_message">Unable to send a message</string>
+
+    <string name="srvctrl_navbar_players">Players</string>
+    <string name="srvctrl_navbar_console">Console</string>
+    <string name="srvctrl_navbar_activity">Activities</string>
+    <string name="srvctrl_navbar_addons">Addons</string>
+    <string name="srvctrl_navbar_info">Info</string>
+
+
+    <!--Player Info-->
+    <string name="playerinfo_title">Player info</string>
+    <string name="playerinfo_index">Index:</string>
+    <string name="playerinfo_steamid" translatable="false">SteamID:</string>
+    <string name="playerinfo_steamid2" translatable="false">SteamID2:</string>
+    <string name="playerinfo_steamid3" translatable="false">SteamID3:</string>
+    <string name="playerinfo_steamid64" translatable="false">SteamID64:</string>
+    <string name="playerinfo_ban_vac">VAC ban:</string>
+    <string name="playerinfo_ban_trade">Trade ban:</string>
+    <string name="playerinfo_ban_found">Detected</string>
+    <string name="playerinfo_ban_notfound">Not found</string>
+    <string name="playerinfo_ip" translatable="false">IP:</string>
+    <string name="playerinfo_country">Country:</string>
+    <string name="playerinfo_city">City:</string>
+    <string name="playerinfo_proxy" translatable="false">Proxy:</string>
+    <string name="playerinfo_vpn" translatable="false">VPN:</string>
+    <string name="playerinfo_tor" translatable="false">Tor:</string>
+    <string name="playerinfo_ping">Ping: %1$d ms</string>
+    <string name="playerinfo_time">Play time: %1$s</string>
+    <string name="playerinfo_score">Score: %1$d</string>
+    <string name="playerinfo_kills">Kills: %1$d</string>
+    <string name="playerinfo_deaths">Deaths: %1$d</string>
+    <string name="playerinfo_flags">Admin flags:</string>
+    <string name="playerinfo_flagsgmod">Group/Admin flags:</string>
+    <string name="playerinfo_unknown" tools:ignore="MissingTranslation">@string/o_action_unknown</string>
+    <string name="playerinfo_required">Required %1$s</string><!--SteamID2/SteamID3/SteamID64-->
+    <string name="playerinfo_bansid">Steam ID bans</string>
+    <string name="playerinfo_bansip">IP bans</string>
+    <string name="playerinfo_mutes">Mutes</string>
+    <string name="playerinfo_stats">Game Stats</string>
+    <string name="playerinfo_actions">Actions</string>
+    <string name="playerinfo_name_copy">Player name copied to clipboard</string>
+    <string name="playerinfo_name_copyerror">Unable to copy player name to the clipboard</string>
+    <string name="playerinfo_error_invalidplayer">Incorrect attempt to open player info</string>
+    <string name="playerinfo_error_failedget">Failed to get %1$s</string><!--SteamID2/SteamID3/SteamID64-->
+
+
+    <!--Addon Info-->
+    <string name="addoninfo_title">Addon info</string>
+    <string name="addoninfo_sort" tools:ignore="MissingTranslation">@string/srvctrl_players_sort</string>
+    <string name="addoninfo_sort_ascending" tools:ignore="MissingTranslation">@string/srvctrl_players_sort_ascending</string>
+    <string name="addoninfo_sort_id">Identifier</string>
+    <string name="addoninfo_sort_status">Status</string>
+    <string name="addoninfo_sort_name">Name</string>
+    <string name="addoninfo_sort_author">Author</string>
+    <string name="addoninfo_sort_version">Version</string>
+    <string name="addoninfo_actions" tools:ignore="MissingTranslation">@string/playerinfo_actions</string>
+    <string name="addoninfo_request_sended" tools:ignore="MissingTranslation">@string/srvctrl_players_reqsended</string>
+    <string name="addoninfo_name_copy">Addon name copied to clipboard</string>
+    <string name="addoninfo_name_copyerror">Unable to copy addon name to the clipboard</string>
+    <string name="addoninfo_error_invalidaddon">Incorrect attempt to open addon info</string>
+    <string name="addoninfo_error_action">Action failed</string>
+    <string name="addoninfo_error_description">Unable to load addon description</string>
+    <string name="addoninfo_subaddons_error">Failed to get %1$s list</string><!--Extension/Modules/Plugins-->
+    <string name="addoninfo_subaddons_empty">%1$s not found</string><!--Extension/Modules/Plugins-->
+    <string name="addoninfo_subaddon_status">Status: %1$s</string>
+    <string name="addoninfo_subaddon_file">File: %1$s</string>
+    <string name="addoninfo_subaddon_author">Author: %1$s</string>
+    <string name="addoninfo_subaddon_version">Version: %1$s</string>
+
+
+    <!--Dialogs-->
+    <string name="dialog_games_title">Select a game</string>
+    <string name="dialog_hosts_title">Select an API</string>
+    <string name="dialog_servers_title">Select a server</string>
+    <string name="dialog_servers_error_description">Failed to load servers list</string>
+    <string name="dialog_fastcmd_title">Edit RCON shortcuts</string>
+    <string name="dialog_accept_action_title">Confirm action</string>
+    <string name="dialog_accept_exit_descr">Exit without saving?</string>
+    <string name="dialog_accept_recreate_descr">Are you sure you want to restore the default RCON shortcuts list?</string>
+    <string name="dialog_accept_restart_descr">Are you sure you want to restart the server?</string>
+    <string name="dialog_accept_stop_descr">Are you sure you want to stop the server?</string>
+    <string name="dialog_accept_clear_descr">Are you sure you want to clear the database? All saved servers will be deleted.</string>
+    <string name="dialog_accept_action_descr">Are you sure you want to perform this action?</string>
+
+    <string name="dialog_input_title">Enter the value</string>
+    <string name="dialog_input_value">Value</string>
+
+    <string name="dialog_console_props_title">Console properties</string>
+    <string name="dialog_console_props_linewrap">Line wrap</string>
+    <string name="dialog_console_props_provider">Request type</string>
+    <string name="dialog_console_props_provider_rcon" translatable="false">RCON</string>
+    <string name="dialog_console_props_provider_api" translatable="false">API</string>
+    <string name="dialog_console_props_autocomplete">Autocomplete mode</string>
+    <string name="dialog_console_props_autocomplete_all">Commands and variables</string>
+    <string name="dialog_console_props_autocomplete_cmds">Commands</string>
+    <string name="dialog_console_props_autocomplete_vars">Variables</string>
+
+    <string name="dialog_map_change_title">Change map</string>
+    <string name="dialog_map_change_value_hint">Map</string>
+
+    <string name="dialog_outdated_title">Checking server version</string>
+    <string name="dialog_outdated_descr">Your server is outdated</string>
+    <string name="dialog_outdated_srvvrs">Server version:</string>
+    <string name="dialog_outdated_latestvrs">Latest version:</string>
+    <string name="dialog_outdated_reunion">Failed to get the server version. If you are using DProto/Reunion, set the value of <b>ServerInfoAnswerType</b> to 0 or 2</string>
+
+    <string name="dialog_variable_oldvalue">Old value: %1$s</string>
+    <string name="dialog_variable_newvalue">New value</string>
+    <string name="dialog_variable_changed">Variable value changed%1$s</string>
+    <string name="dialog_variable_notchanged">Could not change variable value</string>
+    <string name="dialog_variable_notfound">Variable not found</string>
+
+    <string name="dialog_chat_message_type_title">Select message type</string>
+
+    <string name="dialog_subaddon_title_extension">Extension info</string>
+    <string name="dialog_subaddon_title_module">Module info</string>
+    <string name="dialog_subaddon_title_plugin">Plugin info</string>
+    <string name="dialog_subaddon_error_description">Unable to load description</string>
+    <string name="dialog_subaddon_tab_actions">Actions</string>
+    <string name="dialog_subaddon_tab_cmds" tools:ignore="MissingTranslation">@string/srvctrl_info_cmds_title</string>
+    <string name="dialog_subaddon_tab_vars" tools:ignore="MissingTranslation">@string/srvctrl_info_vars_title</string>
+    <string name="dialog_subaddon_cmds_error">Failed to get commands list</string>
+    <string name="dialog_subaddon_cmds_empty">Commands not found</string>
+    <string name="dialog_subaddon_cmds_copy" tools:ignore="MissingTranslation">@string/srvctrl_info_cmds_copy</string>
+    <string name="dialog_subaddon_cmds_copyerror" tools:ignore="MissingTranslation">@string/srvctrl_info_cmds_copyerror</string>
+    <string name="dialog_subaddon_vars_error">Failed to get variables list</string>
+    <string name="dialog_subaddon_vars_empty">Variables not found</string>
+    <string name="dialog_subaddon_vars_copy" tools:ignore="MissingTranslation">@string/srvctrl_info_vars_copy</string>
+    <string name="dialog_subaddon_vars_copyerror" tools:ignore="MissingTranslation">@string/srvctrl_info_vars_copyerror</string>
+
+    <string name="dialog_color_picker_title">Choose a color</string>
+
+    <string name="dialog_action_ban_title">Ban player</string>
+    <string name="dialog_action_kick_title">Kick player</string>
+    <string name="dialog_action_mute_title">Mute player</string>
+    <string name="dialog_action_mode">Type</string>
+    <string name="dialog_action_type">Command/Plugin</string>
+    <string name="dialog_action_storage">Storage</string>
+    <string name="dialog_action_reason">Reason</string>
+    <string name="dialog_action_time_spn">Time</string>
+    <string name="dialog_action_time_edit">Time (in minutes)</string>
+    <string name="dialog_action_time_error_ban">Incorrect ban time</string>
+    <string name="dialog_action_time_error_mute">Incorrect mute time</string>
+    <string-array name="dialog_action_time_text">
+        <item>Permanent</item>
+        <item>Manually</item>
+        <item>10 minute</item>
+        <item>30 minute</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>4 hours</item>
+        <item>8 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>5 days</item>
+        <item>6 days</item>
+        <item>1 week</item>
+        <item>2 weeks</item>
+        <item>3 weeks</item>
+        <item>1 month</item>
+        <item>2 months</item>
+        <item>3 months</item>
+        <item>6 months</item>
+        <item>12 months</item>
+        <item>1 year</item>
+    </string-array>
+    <integer-array name="dialog_action_time_value">
+        <item>0</item>
+        <item>-1</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>480</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>7200</item>
+        <item>8640</item>
+        <item>10080</item>
+        <item>20160</item>
+        <item>30240</item>
+        <item>43800</item>
+        <item>87600</item>
+        <item>131400</item>
+        <item>262800</item>
+        <item>525601</item>
+        <item>525600</item>
+    </integer-array>
+
+
+    <!--App widget-->
+    <string name="widget_title">Server widget</string>
+    <string name="widget_pick_title">Widget preferences</string>
+    <string name="widget_pick_server_title">Server</string>
+    <string name="widget_pick_error_srvnotfound">Servers not found</string>
+    <string name="widget_pick_transparency">Transparency</string>
+    <string name="widget_pick_outline">Outline</string>
+    <string name="widget_type_title">Widget type</string>
+    <string name="widget_type_mini">Micro</string>
+    <string name="widget_type_compact">Compact</string>
+    <string name="widget_type_normal">Default</string>
+    <string name="widget_type_extended">Extended</string>
+    <string name="widget_style_title">Widget style</string>
+    <string name="widget_style_image">Image</string>
+    <string name="widget_style_dark">Dark</string>
+    <string name="widget_style_light">Light</string>
+
+
+    <!--Notifications-->
+    <string name="notify_channel_outdate">Server version checker</string>
+    <string name="notify_channel_services">Foreground services</string>
+
+    <string name="notify_outdate_title">Server is outdated</string>
+    <string name="notify_console_title">Console</string>
+    <string name="notify_console_description">To stop the console, close the server control screen</string>
+    <string name="notify_log_listener_title">Chat/Log listener</string>
+    <string name="notify_log_listener_description">To stop the log listener, close the server control screen</string>
+
+
+    <!--Preferences-->
+    <string name="pref_syncservice_title">Background sync frequency</string>
+    <string name="pref_syncservice_descr">Basic server info (Players, map, ping, etc.)</string>
+    <string name="pref_fullsyncservice_title">Background full sync frequency</string>
+    <string name="pref_fullsyncservice_descr">Map list, cvars, available features, etc.</string>
+    <string-array name="pref_syncservice_text">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>4 hours</item>
+        <item>6 hours</item>
+        <item>8 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_syncservice_value" translatable="false">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>360</item>
+        <item>480</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="pref_fullsyncservice_text">
+        <item>12 hours</item>
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>1 week</item>
+    </string-array>
+    <string-array name="pref_fullsyncservice_value" translatable="false">
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+    </string-array>
+
+    <string name="pref_notify_title">Server outdate notification</string>
+    <string name="pref_notify_descr">Only if checking is enabled in the server settings</string>
+    <string name="pref_logsport_title">Logs listening port</string>
+    <string name="pref_logsport_descr">This port must be open on the router</string>
+    <string name="pref_logsport_hint" translatable="false">7131</string>
+    <string name="pref_logsport_error_empty">The field must not be empty</string>
+    <string name="pref_logsport_error_minmax">The field can have a value from 1024 to 65535</string>
+    <string name="pref_logsport_error_alrused">Port already in use</string>
+    <string name="pref_logsupnp_title" translatable="false">UPnP</string>
+    <string name="pref_logsupnp_descr">Use UPnP to automatically open the port</string>
+
+    <string name="pref_ui_title" translatable="false">UI</string>
+    <string name="pref_ui_theme">Theme</string>
+    <string name="pref_ui_theme_entry_light">Light</string>
+    <string name="pref_ui_theme_entry_dark">Dark</string>
+    <string name="pref_ui_theme_entry_default">System default</string>
+    <string name="pref_ui_theme_default_value" translatable="false">0</string>
+    <string-array name="pref_ui_theme_entries" tools:ignore="InconsistentArrays">
+        <item>@string/pref_ui_theme_entry_light</item>
+        <item>@string/pref_ui_theme_entry_dark</item>
+    </string-array>
+    <string-array name="pref_ui_theme_values" translatable="false" tools:ignore="InconsistentArrays">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="pref_ui_compact_title_title">Compact titles</string>
+    <string name="pref_ui_compact_title_descr">Server names and player names</string>
+    <string name="pref_ui_compact_servers_title">Compact servers list</string>
+    <string name="pref_ui_servers_sort_type">Servers list sorting</string>
+    <string name="pref_ui_servers_sort_type_entry_date">Add date</string>
+    <string name="pref_ui_servers_sort_type_entry_name">Title</string>
+    <string name="pref_ui_servers_sort_type_entry_game">Game</string>
+    <string-array name="pref_ui_servers_sort_type_entries">
+        <item>@string/pref_ui_servers_sort_type_entry_date</item>
+        <item>@string/pref_ui_servers_sort_type_entry_name</item>
+        <item>@string/pref_ui_servers_sort_type_entry_game</item>
+    </string-array>
+    <string-array name="pref_ui_servers_sort_type_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="pref_ui_servers_sort_ascending">Sort Ascending</string>
+
+    <string name="pref_web_title">Web Resources</string>
+    <string name="pref_web_checking">URL checking…</string>
+    <string name="pref_web_founded">A mobile version of the site has been found. Use it? (Desktop version of the site may work incorrectly)</string>
+    <string name="pref_web_ab_title" translatable="false">AmxBans URL</string>
+    <string name="pref_web_ab_hint" translatable="false">https://mysite.com/amxbans</string>
+    <string name="pref_web_sb_title" translatable="false">SourceBans URL</string>
+    <string name="pref_web_sb_hint" translatable="false">https://mysite.com/sourcebans</string>
+    <string name="pref_web_sc_title" translatable="false">SourceBans++/SourceComms</string>
+    <string name="pref_web_gm_title" translatable="false">gameMe URL</string>
+    <string name="pref_web_gm_hint" translatable="false">https://mysite.com/gameme</string>
+    <string name="pref_web_hlx_title" translatable="false">HLstatsX:CE URL</string>
+    <string name="pref_web_hlx_hint" translatable="false">https://mysite.com/hlstats</string>
+
+    <string name="pref_privacy_title">Privacy</string>
+    <string name="pref_privacy_gdpr_title">GDPR options</string>
+    <string name="pref_privacy_gdpr_error">Failed to open options form</string>
+
+    <string name="pref_debug_title">Debug</string>
+    <string name="pref_debug_show_title">Debug settings</string>
+    <string name="pref_debug_extrasrvinfo_title">Extra server info</string>
+    <string name="pref_debug_adsdebug_title">Ads debug</string>
+    <string name="pref_debug_refresh_error_info_title">Display refresh error info</string>
+    <string name="pref_debug_refresh_error_info_descr">Display the cause of the error after the refresh on the server control screen</string>
+    <string name="pref_debug_refresh_error_send_title">Send refresh error info</string>
+    <string name="pref_debug_refresh_error_send_descr">Send the cause of the error after the refresh on the server control screen to the developer</string>
+    <string name="pref_debug_stacktrace_title">Stack trace</string>
+    <string name="pref_debug_stacktrace_descr">Show stack trace if app crashed</string>
+    <string name="pref_debug_backgrounddialog_title">Background crash dialog</string>
+    <string name="pref_debug_backgrounddialog_descr">Display a dialog when an error occurs in the background</string>
+    <string name="pref_debug_remoteconfig_title" translatable="false">Remote Config</string>
+    <string name="pref_debug_remoteconfig_descr">Reduce fetching interval</string>
+    <string name="pref_debug_loglistener_title">Log listener</string>
+    <string name="pref_debug_loglistener_descr">Display debug messages in the log</string>
+
+
+    <!--About-->
+    <string name="about_debug_notify">Debug settings are available for use</string>
+    <string name="about_description"><![CDATA[<strong>Translation authors:</strong><br>%1$s]]></string>
+    <string name="about_special1_name">Rate app</string>
+    <string name="about_special2_name" tools:ignore="MissingTranslation">@string/changelog_dialog_title_full</string>
+    <string name="about_special3_name">Improve translation</string>
+
+
+    <!--Other-->
+    <string name="error_nonetwork">Сould not connect to the network</string>
+</resources>

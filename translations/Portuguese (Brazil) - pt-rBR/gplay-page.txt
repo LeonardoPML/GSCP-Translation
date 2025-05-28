@@ -1,0 +1,87 @@
+App for easy management game servers
+
+
+Supported features:
+- Servers monitoring
+- Detailed server info
+- Resources used by server
+- Player Details
+- Banning, kicking and muting players
+- Chatting with players
+- RCON with autocomplete and shortcuts
+- Addons manager
+- Server map change
+- Start/stop server
+- Version check
+- View and change server cvars
+- Home screen widgets
+
+
+Improve translation:
+https://github.com/MrD1abl0/GSCP-Translation
+
+
+Supported APIs:
+
+CSHost.com.ua
+CW-SERV.RU
+Myarena.ru
+Open Game Panel
+Pterodactyl Panel
+PufferPanel (2.4.0+)
+Vulpecula.HOST
+
+
+Supported games:
+
+Full support:
+- Source engine
+- Alien Swarm
+- Black Mesa
+- CS:S
+- CS:GO
+- Codename CURE
+- DOD:S
+- Day of Infamy
+- Garry’s Mod
+- HL: DM Source
+- HL2: DM
+- Insurgency
+- L4D
+- L4D 2
+- NMRIH
+- Synergy
+- TF 2
+- Zombie Panic! Source
+
+- GoldSource Engine
+- Adrenaline Gamer
+- CS
+- CS:CZ
+- DOD
+- Deathmatch Classic
+- HL
+- HL:OP
+- Sven Co-op
+- TF Classic
+
+- CS 2
+- Insurgency: Sandstorm
+- Palworld
+- Project Zomboid
+- Quake II
+- Quake III Arena
+- SA-MP
+- Wolfenstein: Enemy Territory
+- Xash3D Engine
+
+Partial support:
+- ARK: SE
+- Quake World
+- Terraria
+
+Basic support:
+- Killing Floor
+- Killing Floor 2
+- Quake Live
+- Valheim

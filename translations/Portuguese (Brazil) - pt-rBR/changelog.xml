@@ -1,0 +1,255 @@
+<?xml version="1.0" ?>
+<changelog>
+    <release versionCode="34" versionName="1.1.2" date="15.12.2024">
+        <bugfix>Corrigido travamentos na seção "Addons" da tela de controle no Android 5.0-5.1</bugfix>
+        <bugfix>Corrigido travamentos raros após abrir a tela de informações do addon</bugfix>
+        <bugfix>Corrigido perda de foco no campo de entrada do console se a saída do console foi atualizada</bugfix>
+        <info>Pequenas correções</info>
+    </release>
+    <release versionCode="33" versionName="1.1.1" date="20.07.2024">
+        <bugfix>Corrigidos travamentos raros após abrir a caixa de diálogo de seleção de API/jogo na tela de adicionar/editar servidor</bugfix>
+        <bugfix>Corrigido travamentos raros após minimizar o aplicativo nas caixas de diálogo da página inferior no Android 5.0-6.0</bugfix>
+        <bugfix>Corrigido travamentos raros ao executar o console ou o leitor de logs</bugfix>
+        <bugfix>Corrigido cópia de texto na tela do console</bugfix>
+        <info>Pequenas correções</info>
+    </release>
+    <release versionCode="32" versionName="1.1.0" date="12.06.2024">
+        <new>Suporte a Android 13 e 14</new>
+        <new>Suporte a Pterodactyl Panel API</new>
+        <new>Suporte completo para CS2, Palworld e Project Zomboid</new>
+        <new>Copiando configurações de servidores</new>
+        <info>Varias pequenas melhorias e correções</info>
+    </release>
+    <release versionCode="31" versionName="1.0.1" date="08.10.2023">
+        <bugfix>Ccorrigido travamentos raros após minimizar o aplicativo na tela de adicionar/editar servidor</bugfix>
+        <bugfix>Corrigido travamentos raros após clicar no botão "Editar servidor" na tela de lista de servidores</bugfix>
+        <bugfix>Corrigido travamentos na caixa de diálogo de banimento de jogadores em servidores GoldSource com FreshBans</bugfix>
+        <bugfix>Corrigido erros de autenticação após alteração de mapa em servidores de origem</bugfix>
+        <bugfix>Corrigido contorno inválido do widget da tela inicial na orientação paisagem</bugfix>
+        <bugfix>CCorrigido RCON para servidores SA-MP se o endereço do servidor for especificado como uma URL</bugfix>
+        <info>Chat e estabalidade do leitor de logs melhorado</info>
+        <info>Pequenas melhorias e correções</info>
+    </release>
+    <release versionCode="30" versionName="1.0.0" date="10.09.2023">
+        <new>Suporte a Android 12 e 12L</new>
+        <new>Suporte a Vulpecula.HOST e PufferPanel API</new>
+        <new>Chat</new>
+        <new>Gereniador de addons</new>
+        <new>Jogadores silenciados nos servidores GoldSource e Xash3D FWGS</new>
+        <info>Melhorado leitor de log</info>
+        <info>Varias pequenas melhorias e correções</info>
+        <info>Suporte removido para Android 4.4 KitKat</info>
+    </release>
+    <release versionCode="29" versionName="0.9.7" date="28.08.2022">
+        <bugfix>Corrigido travamentos no Android 4.4 após abretura do aplicativo</bugfix>
+        <info>Melhorias e correções menores</info>
+    </release>
+    <release versionCode="28" versionName="0.9.6" date="07.08.2022">
+        <bugfix>Corrigido enviando um motivo de banimento inválido nos servidores Insurgency: Sandstorm</bugfix>
+        <bugfix>Corrigido lista de jogadores carregando nos servidores Insurgency: Sandstorm se o servidor tiver jogadores EGS</bugfix>
+        <info>Tamanho do aplicativo instalado reduzido</info>
+        <info>Varias pequenas melhorias e correções</info>
+    </release>
+    <release versionCode="27" versionName="0.9.5" date="09.04.2022">
+        <bugfix>Corrigido trava ao abrir o console</bugfix>
+        <bugfix>Corrigido travamentos após inserir uma porta de escuta de logs inválida</bugfix>
+        <bugfix>Corrigido carregamento de informações dos servidores SA-MP se o endereço do servidor for especificado como uma URL</bugfix>
+        <bugfix>Lista de jogadores do Corrigido carregando nos servidores do Insurgency: Sandstorm</bugfix>
+        <bugfix>Corrigido cálculo de contagem de bots nos servidores Insurgency: Sandstorm</bugfix>
+        <bugfix>Corrigido o aparecimento de barras de progresso no Android 4.4</bugfix>
+        <bugfix>Corrigido sobreposição de teclado virtual no campo de entrada do console no Android 4.4</bugfix>
+        <bugfix>Corrigido barra de ferramentas dupla no Android 4.4-5.1</bugfix>
+        <info>Many minor improvements and fixes</info> 
+    </release>
+    <release versionCode="26" versionName="0.9.4" date="09.01.2022"> 
+        <bugfix>Corrigido lista de jogadores carregando em alguns servidores GoldSource</bugfix>
+        <bugfix>Corrigido indisponibilidade de alguns servidores GoldSource caso tenham Reunion</bugfix>
+        <bugfix>Corrigido detecção de sinalizadores de acesso de jogadores em servidores GoldSource</bugfix>
+        <bugfix>Corrigido obtendo dados corrompidos ao executar grandes solicitações RCON em servidores Sven Co-op</bugfix>
+        <bugfix>Corrigi tentativas de autenticação desnecessárias nos servidores Source e GoldSource se a senha RCON não for especificada</bugfix>
+        <info>Melhorias e correções menores</info>
+    </release>
+    <release versionCode="25" versionName="0.9.3" date="31.10.2021">
+        <bugfix>Corrigido cálculo errado de contagem de jogadores/bots em servidores Source com Source TV</bugfix>
+        <bugfix>Corrigido o carregamento de informações estendidas de jogadores em servidores ZPS</bugfix>
+        <bugfix>Corrigido indisponibilidade de alguns servidores GoldSource</bugfix>
+        <bugfix>Corrigido itens arrastando na caixa de diálogo de edição de atalhos do RCON</bugfix>
+        <info>Validação melhorada de informações do servidor inseridas pelo usuário</info>
+        <info>Melhorias e correções menores</info>
+    </release>
+    <release versionCode="24" versionName="0.9.2" date="29.08.2021">
+        <bugfix>Corrigido tela de configurações do widget da tela inicial na orientação paisagem</bugfix>
+        <bugfix>Corrigido o reset do tipo de jogo ao abrir a tela de edição do servidor</bugfix>
+        <bugfix>Jogadores de Corrigido contam com servidores Insurgency</bugfix>
+        <bugfix>Corrigido porta de servidor incorreta na lista de servidores</bugfix>
+        <info>Pequenas melhorias e correções na interface do usuário</info>
+    </release>
+    <release versionCode="23" versionName="0.9.1" date="14.08.2021">
+        <bugfix>Corrigindo atualização do BD local caso o nome do servidor contenha caracteres especiais</bugfix>
+        <info>Formato de data de término do aluguel do Alterado</info>
+        <info>Melhorias e correções menores</info>
+    </release>
+    <release versionCode="22" versionName="0.9.0" date="13.08.2021">
+        <new>Suporte a Android 10 e 11</new>
+        <new>Suporte a AmxBans/AmxBans # Gm/FreshBans</new>
+        <new>Suporte a OGP, CW-SERV.RU and CSHost.com.ua API</new>
+        <new>Suporte completo para 9 novos jogos</new>
+        <new>Suporte parcial para 3 novos jogos</new>
+        <new>Suporte basico para 4 novos jogos</new>
+        <new>Informações estendidas do jogador</new>
+        <new>Widgets de tela inicial estendidos</new>
+        <new>Tema escuro</new>
+        <info>Refatoração</info>
+        <info>Aplicativo reescrito em Kotlin</info>
+        <info>Diálogo de alteração de mapa reformulado</info>
+        <info>Tamanho do aplicativo reduzido</info>
+        <info>Varias pequenas melhorias e correções</info>
+        <info>Lista de idiomas suportados atualizada[br](Obrigado Tomislav Vasilev)</info>
+    </release>
+    <release versionCode="21" versionName="0.8.9" date="01.12.2019">
+        <bugfix>Corrigido travamentos after incorrect Aplicativo Bundle install</bugfix>
+        <bugfix>Corrigido travamentos after entering incorrect AplicativoID</bugfix>
+        <bugfix>Corrigido travamentos after entering incorrect ban/mute time</bugfix>
+        <bugfix>Corrigido RCON on goldsource if rcon_password contains special characters</bugfix>
+        <bugfix>Corrigido players country loading</bugfix>
+        <info>Pequenas melhorias na interface</info>
+        <info>Atualizado translation[br](Thanks Kruzya)</info>
+    </release>
+    <release versionCode="20" versionName="0.8.8" date="12.10.2019">
+        <bugfix>Corrigido travamentos after trying to edit removed server</bugfix>
+        <bugfix>Corrigido travamentos raros after trying to send an RCON command</bugfix>
+        <bugfix>Corrigido loading untitled maps via Myarena API</bugfix>
+        <bugfix>Corrigido wrong calculation of players count on CS:GO servers with bots</bugfix>
+        <bugfix>Partially fixed wrong calculation of players count on servers with GOTV</bugfix>
+        <info>Pequenas melhorias na interface</info>
+        <info>Atualizado supported languages list[br](Thanks Augus Salon)</info>
+    </release>
+    <release versionCode="19" versionName="0.8.7" date="01.09.2019">
+        <bugfix>Corrigido search players bans and stats</bugfix>
+        <bugfix>Corrigido wrong calculation of bots count when using HLTV on goldsource</bugfix>
+        <bugfix>Corrigido display of bots count if RevEmu hides them</bugfix>
+        <bugfix>Corrigido incorrect swipes on some devices</bugfix>
+        <info>Atualizado date formatting</info>
+        <info>Pequenas melhorias na interface</info>      
+        <info>Atualizado translation[br](Thanks Paranoiiik)</info>
+    </release>
+    <release versionCode="18" versionName="0.8.6" date="07.07.2019">
+        <bugfix>Corrigido travamentos raros after checking network connection</bugfix>
+        <bugfix>Corrigido travamentos raros after trying to open camera</bugfix>
+        <bugfix>Corrigido loading of available commands on goldsource servers</bugfi>
+        <bugfix>Corrigido loading of players list if goldsource server using HLTV</bugfix> 
+        <bugfix>Corrigido loading avatars after scrolling players list</bugfix>
+        <info>Pequenas alterações na interface</info>
+        <info>Reduzido app size</info>
+        <info>Atualizado supported languages list[br](Thanks Pjeter Jetishi)</info>
+    </release>
+    <release versionCode="17" versionName="0.8.5" date="01.06.2019">
+        <bugfix>Corrigido travamentos after an invalid attempt to open app</bugfix>
+        <bugfix>Corrigido travamentos raros after changing section in CP</bugfix>
+        <bugfix>Corrigido detection of SB++ if using Material Admin</bugfix>
+        <bugfix>Corrigido display of cvars list after closing search bar</bugfix>
+        <info>Removido requirement to enter server name in add server screen</info>
+        <info>Melhorado stability of cvars list loading</info>
+        <info>Melhorado error handling after checking server connection</info>
+        <info>Replaced «server outdated» icon</info>
+        <info>Redesigned players list item layout</info>
+        <info>Melhorado UI on Android 4.4</info>
+        <info>Many minor improvements and fixes</info>
+    </release>
+    <release versionCode="16" versionName="0.8.4" date="04.05.2019">
+        <bugfix>Corrigido travamentos after an invalid attempt to open a server CP</bugfix>
+        <bugfix>Corrigido travamentos after incorrect Aplicativo Bundle install</bugfix>
+        <bugfix>Corrigido travamentos raros after trying to start log listening service</bugfix>
+        <bugfix>Corrigido incorrect disabling of settings items</bugfix>
+        <bugfix>Corrigido missing avatars of players after a failed download</bugfix>
+        <bugfix>Corrigido ban on GoldSource servers using «engine» ban type</bugfix>
+        <bugfix>Corrigido bugs when using old style queries on GoldSource servers</bugfix>
+        <info>Melhorias menores and bug fixes</info>
+    </release>
+    <release versionCode="15" versionName="0.8.3" date="09.04.2019">
+        <bugfix>Corrigido travamentos when app is installed not from Google Play</bugfix>
+        <bugfix>Corrigido travamentos in changelog dialog on some devices</bugfix>
+        <bugfix>Corrigido travamentos after kick/ban/mute player from main screen</bugfix>
+        <bugfix>Corrigido travamentos after rotating settings screen</bugfix>
+        <bugfix>Corrigido travamentos on devices without a back camera</bugfix>
+        <bugfix>Corrigido travamentos raros when trying to delete RCON shortcut</bugfix>
+        <bugfix>Corrigido travamentos raros after refreshing server info from the main screen</bugfix>
+        <info>Pequenas alterações na interface</info>
+    </release>
+    <release versionCode="14" versionName="0.8.2" date="15.03.2019">
+        <bugfix>Corrigido crash when trying to view player info without Steam ID</bugfix>
+        <bugfix>Corrigido crash during a long press on Samsung devices</bugfix>
+        <bugfix>Corrigido errors when updating app DB structure</bugfix>
+        <bugfix>Corrigido incorrect display of access flags</bugfix>
+        <info>Pequenas correções na interface</info>
+    </release>
+    <release versionCode="13" versionName="0.8.1" date="11.03.2019">
+        <bugfix>Corrigido travamentos when server variables could not be loaded</bugfix>
+        <bugfix>Corrigido displaying a false error after changing a variable</bugfix>
+        <info>Reduzido the number of requests cvars list</info>
+    </release>
+    <release versionCode="12" versionName="0.8.0" date="09.03.2019">
+        <new>Suporte paraa Android 4.4 e 9.0</new>
+        <new>Suporte a Ulysses Mod</new>
+        <new>Recursos usados pelo servidor</new>
+        <new>Informações detalhadas dos jogadores</new>
+        <new>Atalhos RCON</new>
+        <new>Ler logs de servidor</new>
+        <new>Notificação se o servidor estiver desatualizado</new>
+        <info>Monitoramento detalhado reformulado</info>
+        <info>Reformulado server info section</info>
+        <info>Reduzido app size</info>
+        <info>Seção de informações do servidor reformulada</info>        
+        <info>Pequenas alterações na interface</info>
+        <info>Varias pequenas melhorias e correções</info>
+    </release>
+    <release versionCode="11" versionName="0.7.1" date="09.09.2018">
+        <bugfix>Corrigido travamentos ao inserir o AppID errado</bugfix>
+    </release>
+    <release versionCode="10" versionName="0.7.0" date="25.08.2018">
+        <new>Suporte a GoldSource Engine</new>
+        <new>Suporte para mais 13 jogos/new>
+        <new>Suporte a AmxMod</new>
+        <new>Recurso de verificação da versão do servidor</new>
+        <new>Atalhos do aplicativo (Android 7.1+)</new>
+        <bugfix>Corrigido exibição do progresso após adicionar/editar servidor</bugfix>
+        <info>Diálogos Corrigido em pequenos dispositivos e tablets</info>
+        <info>Caixa de diálogo de erro substituída</info>
+        <info>Pequenas correções na interface</info>
+    </release>
+    <release versionCode="9" versionName="0.6.8" date="04.08.2018">
+        <bugfix>Corrigido travamentos quando o dispositivo usa formato de 12 horas</bugfix>
+    </release>
+    <release versionCode="8" versionName="0.6.7" date="29.07.2018">
+        <bugfix>Corrigido travamentos ao inicializar compras no aplicativo</bugfix>
+        <info>Tempo de atualização de informações do servidor reduzido</info>
+    </release>
+    <release versionCode="7" versionName="0.6.6" date="15.07.2018">
+        <bugfix>Corrigido travamentos ao verificar as configurações do servidor</bugfix>
+        <bugfix>Corrigido travamentos de sincronização após adicionar novo servidor</bugfix>
+        <bugfix>Corrigido verificação de disponibilidade da API Myarena</bugfix>
+    </release>
+    <release versionCode="6" versionName="0.6.5" date="08.07.2018">
+        <bugfix>Corrigido travamentos ao carregar avatares</bugfix>
+        <info>Pequenas correções na interface</info>
+    </release>
+    <release versionCode="5" versionName="0.6.4" date="21.06.2018">
+        <bugfix>Corrigido travamentos após rotação da tela</bugfix>
+        <bugfix>Corrigido travamentos após minimizar o aplicativo</bugfix>
+    </release>
+    <release versionCode="4" versionName="0.6.3" date="18.06.2018">
+        <info>Estabilidade aumentada ao usar uma conexão de internet lenta</info>
+        <bugfix>Corrigido atualização automática após ban/kick/mute</bugfix>
+    </release>
+    <release versionCode="3" versionName="0.6.2" date="14.06.2018">
+        <bugfix>Corrigindo sincronização em segundo plano no Android 8.0</bugfix>
+        <bugfix>Corrigido cvar list no CS:GO</bugfix>
+    </release>
+    <release versionCode="2" versionName="0.6.1" date="07.06.2018"> 
+        <new>Adicionado a função de remoção de AD</new>
+        <info>Correções</info>
+    </release>
+    <release versionCode="1" versionName="0.6.0" date="05.06.2018">
+        <info>Lançamento inicial</info>
+    </release>
+</changelog>
