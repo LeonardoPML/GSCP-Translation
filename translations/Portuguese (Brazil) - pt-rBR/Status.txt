@@ -1,2 +1,3 @@
 ChangeLog - 117
 Strings - 343 
+Gplay-page - fully translated

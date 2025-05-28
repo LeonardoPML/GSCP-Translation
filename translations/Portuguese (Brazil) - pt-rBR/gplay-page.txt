@@ -1,27 +1,27 @@
-App for easy management game servers
+Aplicativo para gerenciamento fácil de servidores de jogos
 
 
-Supported features:
-- Servers monitoring
-- Detailed server info
-- Resources used by server
-- Player Details
-- Banning, kicking and muting players
-- Chatting with players
-- RCON with autocomplete and shortcuts
-- Addons manager
-- Server map change
-- Start/stop server
-- Version check
-- View and change server cvars
-- Home screen widgets
+Recursos suportados:
+- Monitoramento de servidores
+- Informações detalhadas do servidor
+- Recursos utilizados pelo servidor
+- Detalhes do jogador
+- Banimento, kick e silenciamento de jogadores
+- Conversa com jogadores
+- RCON com preenchimento automático e atalhos
+- Gerenciador de complementos
+- Alteração do mapa do servidor
+- Iniciar/parar o servidor
+- Verificação de versão
+- Visualização e alteração de cvars do servidor
+- Widgets da tela inicial
 
 
-Improve translation:
+Melhore a tradução:
 https://github.com/MrD1abl0/GSCP-Translation
 
 
-Supported APIs:
+APIs suportadas:
 
 CSHost.com.ua
 CW-SERV.RU
@@ -32,9 +32,9 @@ PufferPanel (2.4.0+)
 Vulpecula.HOST
 
 
-Supported games:
+Jogos suportados:
 
-Full support:
+Suporte Completo:
 - Source engine
 - Alien Swarm
 - Black Mesa
@@ -75,12 +75,12 @@ Full support:
 - Wolfenstein: Enemy Territory
 - Xash3D Engine
 
-Partial support:
+Suporte Parcial:
 - ARK: SE
 - Quake World
 - Terraria
 
-Basic support:
+Suporte Básico:
 - Killing Floor
 - Killing Floor 2
 - Quake Live
