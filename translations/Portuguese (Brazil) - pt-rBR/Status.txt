@@ -1,4 +1,4 @@
 ChangeLog - fully translated
-Strings - 343 
+Strings - 595 
 Gplay-page - fully translated
 Strings-extra - fully translated

@@ -342,174 +342,174 @@
     <string name="addons_fields_sm_reason">Motivo</string>
 
     <!--Servers List-->
-    <string name="srvlist_title">Servers list</string>
+    <string name="srvlist_title">Lista de servidores</string>
     <string name="srvlist_subtitle">Total players: %1$d/%2$d</string>
-    <string name="srvlist_subtitleb">Total players: %1$d(+%3$d)/%2$d</string>
-    <string name="srvlist_empty">Servers list is empty</string>
-    <string name="srvlist_error_db_text">An error occurred while loading the servers list</string>
-    <string name="srvlist_error_db_btn">Clear database</string>
+    <string name="srvlist_subtitleb">Total de jogadores: %1$d(+%3$d)/%2$d</string>
+    <string name="srvlist_empty">A lista de servidores está vazia</string>
+    <string name="srvlist_error_db_text">AOcorreu um erro ao carregar a lista de servidores</string>
+    <string name="srvlist_error_db_btn">Limpar banco de dados</string>
 
     <string name="srvlist_item_ip" translatable="false">IP: %1$s:%2$d</string>
     <string name="srvlist_item_ping">Ping: %1$d ms</string>
-    <string name="srvlist_item_map">Map: %1$s</string>
-    <string name="srvlist_item_players">Players: %1$d/%2$d</string>
-    <string name="srvlist_item_playersb">Players: %1$d(+%3$d)/%2$d</string>
-    <string name="srvlist_item_updated">Updated: %1$s</string>
-    <string name="srvlist_item_deleted">Server removed</string>
-    <string name="srvlist_item_delete_error">Failed to remove the server</string>
+    <string name="srvlist_item_map">Mapa: %1$s</string>
+    <string name="srvlist_item_players">Jogadores: %1$d/%2$d</string>
+    <string name="srvlist_item_playersb">Jogadores: %1$d(+%3$d)/%2$d</string>
+    <string name="srvlist_item_updated">Atualizado: %1$s</string>
+    <string name="srvlist_item_deleted">Servidor removido</string>
+    <string name="srvlist_item_delete_error">Ffalha ao remover o servidor</string>
 
-    <string name="srvlist_snackbar_restart_title">An update has just been downloaded</string>
-    <string name="srvlist_snackbar_restart_action">Restart</string>
+    <string name="srvlist_snackbar_restart_title">Uma atualização acabou de ser baixada</string>
+    <string name="srvlist_snackbar_restart_action">Reiniciar</string>
 
 
     <!--Server edit-->
-    <string name="srvedit_title_add">Add server</string>
-    <string name="srvedit_title_edit">Edit server</string>
+    <string name="srvedit_title_add">Adicionar servidor</string>
+    <string name="srvedit_title_edit">Editar servidor</string>
 
-    <string name="srvedit_btn_copy">Copy settings of another server</string>
+    <string name="srvedit_btn_copy">Copiar configurações de outro servidor</string>
 
-    <string name="srvedit_group_main">Main</string>
+    <string name="srvedit_group_main">Principal</string>
     <string name="srvedit_txt_ip" translatable="false">IP</string>
-    <string name="srvedit_txt_port">Port</string>
-    <string name="srvedit_txt_game">Game</string>
-    <string name="srvedit_txt_rcon">RCON password</string>
-    <string name="srvedit_txt_rconPort">RCON port</string>
+    <string name="srvedit_txt_port">Porta</string>
+    <string name="srvedit_txt_game">Jogo</string>
+    <string name="srvedit_txt_rcon">Senha do RCON</string>
+    <string name="srvedit_txt_rconPort">porta do RCON</string>
 
-    <string name="srvedit_group_web">Web server</string>
+    <string name="srvedit_group_web">Servidor web</string>
     <string name="srvedit_txt_web_ip" translatable="false">@string/srvedit_txt_ip</string>
     <string name="srvedit_txt_web_port" translatable="false">@string/srvedit_txt_port</string>
     <string name="srvedit_txt_web_login">Login</string>
-    <string name="srvedit_txt_web_pass">Password</string>
+    <string name="srvedit_txt_web_pass">Senha</string>
 
     <string name="srvedit_group_ftp" translatable="false">FTP</string>
     <string name="srvedit_txt_ftp_ip" translatable="false">@string/srvedit_txt_ip</string>
-    <string name="srvedit_txt_ftp_port">Port</string>
-    <string name="srvedit_txt_ftp_user">User</string>
+    <string name="srvedit_txt_ftp_port">Porta</string>
+    <string name="srvedit_txt_ftp_user">Usuario</string>
     <string name="srvedit_txt_ftp_pass" translatable="false">@string/srvedit_txt_web_pass</string>
-    <string name="srvedit_txt_ftp_path">Path to server content (folder \"%1$s\")</string>
+    <string name="srvedit_txt_ftp_path">Caminho para o conteúdo do servidor (pasta \"%1$s\")</string>
 
-    <string name="srvedit_group_host">API key</string>
+    <string name="srvedit_group_host">Chave da API</string>
     <string name="srvedit_spn_host_type" translatable="false">API</string>
     <string name="srvedit_txt_host_url" translatable="false">URL</string>
-    <string name="srvedit_txt_host_oauth_id">OAuth2 client ID</string>
-    <string name="srvedit_txt_host_oauth_secret">OAuth2 client secret</string>
-    <string name="srvedit_txt_host_container_id">Server ID</string>
-    <string name="srvedit_txt_host_container_id_helper">Contained in the CP URL (if account has all perms, the field will be filled automatically after API check)</string>
-    <string name="srvedit_txt_host_container_name">Server name</string>
-    <string name="srvedit_txt_host_container_name_helper">Optional field if Server ID is filled</string>
+    <string name="srvedit_txt_host_oauth_id">ID do cliente OAuth2</string>
+    <string name="srvedit_txt_host_oauth_secret">Secret do cliente OAuth2</string>
+    <string name="srvedit_txt_host_container_id">ID do servidor</string>
+    <string name="srvedit_txt_host_container_id_helper">Contido na URL do CP (se a conta tiver todas as permissões, o campo será preenchido automaticamente após a verificação da API)</string>
+    <string name="srvedit_txt_host_container_name">Nome do servidor</string>
+    <string name="srvedit_txt_host_container_name_helper">Campo opcional se o ID do servidor estiver preenchido</string>
     <string name="srvedit_txt_host_ip" translatable="false">@string/srvedit_txt_ip</string>
     <string name="srvedit_txt_host_port" translatable="false">@string/srvedit_txt_port</string>
-    <string name="srvedit_txt_host_key">Key</string>
-    <string name="srvedit_txt_host_key_helper">Only if you use this hosting</string>
+    <string name="srvedit_txt_host_key">Chave</string>
+    <string name="srvedit_txt_host_key_helper">somente se você usar esta hospedagem</string>
     <string name="srvedit_btn_qrcode">QR Code</string>
 
     <string name="srvedit_group_extra">Extra</string>
-    <string name="srvedit_txt_color">Server Color</string>
-    <string name="srvedit_switch_compactplayers">Compact players list</string>
-    <string name="srvedit_switch_hideplayers">Hide bots in the players list</string>
-    <string name="srvedit_switch_checkversion">Alert if server is outdated</string>
-    <string name="srvedit_switch_listenlogs">Log listening</string>
+    <string name="srvedit_txt_color">Cor do servidor</string>
+    <string name="srvedit_switch_compactplayers">Lista de jogadores compactos</string>
+    <string name="srvedit_switch_hideplayers">Ocultar bots na lista de jogadores</string>
+    <string name="srvedit_switch_checkversion">Aalerta se o servidor estiver desatualizado</string>
+    <string name="srvedit_switch_listenlogs">Log de escuta</string>
     <string name="srvedit_switch_chat">Chat</string>
-    <string name="srvedit_txt_fastcmds">RCON shortcuts</string>
+    <string name="srvedit_txt_fastcmds">Atalhos RCON</string>
     <string name="srvedit_txt_appid" translatable="false">AppID</string>
-    <string name="srvedit_txt_appid_description">ID to check server version</string>
+    <string name="srvedit_txt_appid_description">ID para verificar a versão do servidor</string>
     <string name="srvedit_txt_name_format" translatable="false">%1$s_%2$s:%3$d</string>
-    <string name="srvedit_btn_fastcmds_recreate">Restore default list</string>
+    <string name="srvedit_btn_fastcmds_recreate">Restaurar lista padrão</string>
 
-    <string name="srvedit_txt_error_empty">Field must not be empty</string>
-    <string name="srvedit_txt_error_greater">Field must be greater than %1$d</string>
-    <string name="srvedit_txt_error_less">Field must be less than %1$d</string>
-    <string name="srvedit_error_save">An error occurred while saving the server</string>
-    <string name="srvedit_error_invalidopen">Incorrect attempt to open server add/edit screen</string>
-    <string name="srvedit_warning_port">This feature works only when connected to the network via WI-FI. In addition, you need to open port %1$d on the router.</string>
+    <string name="srvedit_txt_error_empty">O campo não deve estar vazio</string>
+    <string name="srvedit_txt_error_greater">O campo deve ser maior que %1$d</string>
+    <string name="srvedit_txt_error_less">O campo deve ser menor que %1$d</string>
+    <string name="srvedit_error_save">Ocorreu um erro ao salvar o servidor</string>
+    <string name="srvedit_error_invalidopen">tentativa incorreta de abrir a tela de adicionar/editar servidor</string>
+    <string name="srvedit_warning_port">Este recurso só funciona quando conectado à rede via Wi-Fi. Além disso, você precisa abrir a porta %1$d no roteador.</string>
 
-    <string name="srvedit_btn_title">Check</string>
-    <string name="srvedit_btn_host_title">Check API Key</string>
-    <string name="srvedit_btn_progress">Loading</string>
-    <string name="srvedit_btn_ok">Success</string>
+    <string name="srvedit_btn_title">Verificar</string>
+    <string name="srvedit_btn_host_title">Verifique a chave da API</string>
+    <string name="srvedit_btn_progress">Carregando</string>
+    <string name="srvedit_btn_ok">Sucesso</string>
 
 
     <!--QR Code Scanner-->
-    <string name="camera_title">QR code scanner</string>
-    <string name="camera_permsdenide">Unable to access camera</string>
-    <string name="camera_error">An error occurred when requesting permission</string>
-    <string name="camera_notfound">Camera not found</string>
+    <string name="camera_title">Leitor de código QR</string>
+    <string name="camera_permsdenide">Não é possível acessar a câmera</string>
+    <string name="camera_error">AOcorreu um erro ao solicitar permissão</string>
+    <string name="camera_notfound">Câmera não encontrada</string>
 
 
     <!--Server Control-->
     <string name="srvctrl_srvinfo_status">Status: %1$s</string>
-    <string name="srvctrl_srvinfo_renta">Rental expires in:</string>
+    <string name="srvctrl_srvinfo_renta">O aluguel expira em:</string>
 
-    <string name="srvctrl_menu_tooltip">Server Control</string>
-    <string name="srvctrl_menu_start">Start</string>
-    <string name="srvctrl_menu_restart">Restart</string>
-    <string name="srvctrl_menu_stop">Stop</string>
-    <string name="srvctrl_menu_stop_force">Force stop</string>
-    <string name="srvctrl_menu_map">Change map</string>
-    <string name="srvctrl_menu_fullrefresh">Full refresh</string>
+    <string name="srvctrl_menu_tooltip">Controle do Servidor</string>
+    <string name="srvctrl_menu_start">Iniciar</string>
+    <string name="srvctrl_menu_restart">Reiniciar</string>
+    <string name="srvctrl_menu_stop">Parar</string>
+    <string name="srvctrl_menu_stop_force">>Forçar parada</string>
+    <string name="srvctrl_menu_map">Alterar mapa</string>
+    <string name="srvctrl_menu_fullrefresh">Atualização completa</string>
     <string name="srvctrl_menu_edit" tools:ignore="MissingTranslation">@string/o_action_edit</string>
 
     <string name="srvctrl_snackbar_restart_title" tools:ignore="MissingTranslation">@string/srvlist_snackbar_restart_title</string>
     <string name="srvctrl_snackbar_restart_action" tools:ignore="MissingTranslation">@string/srvlist_snackbar_restart_action</string>
 
-    <string name="srvctrl_error_request">Request failed</string>
+    <string name="srvctrl_error_request">Solicitação falhou</string>
     <string name="srvctrl_error_response" tools:ignore="MissingTranslation">@string/parsed_error_invalid_response_api</string>
     <string name="srvctrl_error_token" tools:ignore="MissingTranslation">@string/parsed_error_token</string>
-    <string name="srvctrl_error_invaliddata">An error occurred while loading data</string>
-    <string name="srvctrl_error_invalidserver">Invalid attempt to open a server CP</string>
-    <string name="srvctrl_error_unknownmap">Map with that name not found</string>
-    <string name="srvctrl_error_unknowncommand">Unknown console command</string>
-    <string name="srvctrl_success_start">Server is starting</string>
-    <string name="srvctrl_success_restart">Server is restarting</string>
+    <string name="srvctrl_error_invaliddata">Ocorreu um erro ao carregar os dados</string>
+    <string name="srvctrl_error_invalidserver">Tentativa inválida de abrir um CP de servidor</string>
+    <string name="srvctrl_error_unknownmap">Mapa com esse nome não encontrado</string>
+    <string name="srvctrl_error_unknowncommand">Comando de console desconhecido</string>
+    <string name="srvctrl_success_start">O servidor está iniciando</string>
+    <string name="srvctrl_success_restart">O servidor está reiniciando</string>
 
-    <string name="srvctrl_players_sort">Sorting</string>
-    <string name="srvctrl_players_sort_ascending">Sort Ascending</string>
-    <string name="srvctrl_players_sort_nickname">Nickname</string>
-    <string name="srvctrl_players_sort_score">Score</string>
-    <string name="srvctrl_players_sort_time">Duration</string>
+    <string name="srvctrl_players_sort">Classificação</string>
+    <string name="srvctrl_players_sort_ascending">Ordenar em ordem crescente</string>
+    <string name="srvctrl_players_sort_nickname">Apelido</string>
+    <string name="srvctrl_players_sort_score">Pontuação</string>
+    <string name="srvctrl_players_sort_time">Duração</string>
     <string name="srvctrl_players_sort_ping">Ping</string>
-    <string name="srvctrl_players_empty">Server is empty</string>
-    <string name="srvctrl_players_error">Failed to load player list</string>
-    <string name="srvctrl_players_index">Index: %1$s</string>
-    <string name="srvctrl_players_score">Score: %1$s</string>
-    <string name="srvctrl_players_kills">Kills: %1$s</string>
-    <string name="srvctrl_players_deaths">Deaths: %1$s</string>
+    <string name="srvctrl_players_empty">O servidor está vazio</string>
+    <string name="srvctrl_players_error">Falha ao carregar a lista de jogadores</string>
+    <string name="srvctrl_players_index">Índice: %1$s</string>
+    <string name="srvctrl_players_score">Pontuação: %1$s</string>
+    <string name="srvctrl_players_kills">Matou: %1$s</string>
+    <string name="srvctrl_players_deaths">Mortes: %1$s</string>
     <string name="srvctrl_players_steamid" translatable="false">SteamID: %1$s</string>
     <string name="srvctrl_players_ip" translatable="false">IP: %1$s</string>
-    <string name="srvctrl_players_time">Time: %1$s</string>
+    <string name="srvctrl_players_time">Tempo: %1$s</string>
     <string name="srvctrl_players_ping">Ping: %1$s ms</string>
     <string name="srvctrl_players_isbot">Bot</string>
-    <string name="srvctrl_players_reqsended">Request sended</string>
+    <string name="srvctrl_players_reqsended">Solicitação enviada</string>
 
-    <string name="srvctrl_console_edit">Command</string>
-    <string name="srvctrl_console_action_send">Send</string>
+    <string name="srvctrl_console_edit">Comando</string>
+    <string name="srvctrl_console_action_send">Enviar</string>
     <string name="srvctrl_console_action_props" tools:ignore="MissingTranslation">@string/dialog_console_props_title</string>
-    <string name="srvctrl_console_sended">Command sended</string>
+    <string name="srvctrl_console_sended">Comando enviado</string>
 
-    <string name="srvctrl_addons_not_found">Addons not found</string>
+    <string name="srvctrl_addons_not_found">Addons não encontrados</string>
 
-    <string name="srvctrl_info_query_title">Monitoring</string>
-    <string name="srvctrl_info_query_copy">Value copied to clipboard</string>
-    <string name="srvctrl_info_query_copyerror">Unable to copy value to the clipboard</string>
+    <string name="srvctrl_info_query_title">Monitorando</string>
+    <string name="srvctrl_info_query_copy">Valor copiado para a área de transferência</string>
+    <string name="srvctrl_info_query_copyerror">Não é possível copiar o valor para a área de transferência</string>
     <string name="srvctrl_info_query_ip" translatable="false">IP</string>
-    <string name="srvctrl_info_query_gamename">Game name/description</string>
-    <string name="srvctrl_info_query_game">Game</string>
-    <string name="srvctrl_info_query_os">Operating system</string>
+    <string name="srvctrl_info_query_gamename">Nome do jogo/descrição do nome</string>
+    <string name="srvctrl_info_query_game">Jogo</string>
+    <string name="srvctrl_info_query_os">Sistema operacional</string>
     <string name="srvctrl_info_query_anticheat">Anti-Cheat</string>
-    <string name="srvctrl_info_query_pass">Password</string>
-    <string name="srvctrl_info_query_version">Version</string>
+    <string name="srvctrl_info_query_pass">Senha</string>
+    <string name="srvctrl_info_query_version">Versão</string>
     <string name="srvctrl_info_query_id" translatable="false">ID</string>
-    <string name="srvctrl_info_query_location">Location</string>
+    <string name="srvctrl_info_query_location">Localização</string>
     <string name="srvctrl_info_query_unknown" tools:ignore="MissingTranslation">@string/o_action_unknown</string>
     <string name="srvctrl_info_query_type">Type</string>
-    <string name="srvctrl_info_query_blockdate">Rental end date</string>
-    <string name="srvctrl_info_query_realip">Real IP</string>
-    <string name="srvctrl_info_query_gameid">Game ID/Folder</string>
-    <string name="srvctrl_info_query_mapscount">Maps Count</string>
-    <string name="srvctrl_info_query_cvarscount">Cvars count</string>
-    <string name="srvctrl_info_query_lastfullrefresh">Last full refresh</string>
+    <string name="srvctrl_info_query_blockdate">Data de término do aluguel</string>
+    <string name="srvctrl_info_query_realip">IP real</string>
+    <string name="srvctrl_info_query_gameid">ID do jogo/pasta</string>
+    <string name="srvctrl_info_query_mapscount">Contagem de mapas</string>
+    <string name="srvctrl_info_query_cvarscount">Contagem de Cvars</string>
+    <string name="srvctrl_info_query_lastfullrefresh">Última atualização completa</string>
     <string name="srvctrl_info_query_rcon" translatable="false">RCON</string>
-    <string name="srvctrl_info_query_api">Hosting API</string>
+    <string name="srvctrl_info_query_api">API de hospedagem</string>
     <string name="srvctrl_info_query_mm" translatable="false">Metamod</string>
     <string name="srvctrl_info_query_amx" translatable="false">Amxmod</string>
     <string name="srvctrl_info_query_amxxgag" translatable="false">AMXX Gag</string>
@@ -522,77 +522,77 @@
     <string name="srvctrl_info_query_css" translatable="false">CounterStrikeSharp</string>
     <string name="srvctrl_info_query_as" translatable="false">Admin system</string>
 
-    <string name="srvctrl_info_perfs_title">Resources</string>
+    <string name="srvctrl_info_perfs_title">Recursos</string>
     <string name="srvctrl_info_perfs_cpu">CPU</string>
     <string name="srvctrl_info_perfs_ram">RAM</string>
-    <string name="srvctrl_info_perfs_rom">Storage</string>
-    <string name="srvctrl_info_perfs_intraff">Incoming traffic</string>
-    <string name="srvctrl_info_perfs_outtraff">Outbound traffic</string>
+    <string name="srvctrl_info_perfs_rom">Armazenamento</string>
+    <string name="srvctrl_info_perfs_intraff">Tráfego de entrada</string>
+    <string name="srvctrl_info_perfs_outtraff">Tráfego de saída</string>
     <string name="srvctrl_info_perfs_traffic_size">%1$.2f (KB/s)</string>
     <string name="srvctrl_info_perfs_fps" translatable="false">FPS</string>
-    <string name="srvctrl_info_perfs_uptime">Uptime</string>
-    <string name="srvctrl_info_perfs_connects">Connects</string>
+    <string name="srvctrl_info_perfs_uptime">Tempo de atividade</string>
+    <string name="srvctrl_info_perfs_connects">Conexões</string>
     <string name="srvctrl_info_perfs_data_size_full">%1$d/%2$d MB (%3$d%%)</string>
     <string name="srvctrl_info_perfs_data_size_mb">%d MB</string>
-    <string name="srvctrl_info_perfs_error">Failed to load info about used resources.</string>
+    <string name="srvctrl_info_perfs_error">Falha ao carregar informações sobre recursos usados.</string>
 
-    <string name="srvctrl_info_cmds_title">Commands</string>
-    <string name="srvctrl_info_cmds_notfound">Server commands not found</string>
-    <string name="srvctrl_info_cmds_copy">Command copied to clipboard</string>
-    <string name="srvctrl_info_cmds_copyerror">Unable to copy command to the clipboard</string>
+    <string name="srvctrl_info_cmds_title">Comandos</string>
+    <string name="srvctrl_info_cmds_notfound">Comandos do servidor não encontrados</string>
+    <string name="srvctrl_info_cmds_copy">Comando copiado para a área de transferência</string>
+    <string name="srvctrl_info_cmds_copyerror">Não é possível copiar o comando para a área de transferência</string>
 
-    <string name="srvctrl_info_vars_title">Variables</string>
-    <string name="srvctrl_info_vars_error">Failed to get server variables list</string>
-    <string name="srvctrl_info_vars_notfound">Server variables not found</string>
-    <string name="srvctrl_info_vars_copy">Variable name copied to clipboard</string>
-    <string name="srvctrl_info_vars_copyerror">Unable to copy variable name to the clipboard</string>
+    <string name="srvctrl_info_vars_title">Variáveis</string>
+    <string name="srvctrl_info_vars_error">Falha ao obter a lista de variáveis ​​do servidor</string>
+    <string name="srvctrl_info_vars_notfound">Variáveis do servidor não encontradas</string>
+    <string name="srvctrl_info_vars_copy">Nome da variável copiado para a área de transferência</string>
+    <string name="srvctrl_info_vars_copyerror">Não é possível copiar o nome da variável para a área de transferência</string>
 
     <string name="srvctrl_activities_log_title">Log</string>
-    <string name="srvctrl_activities_log_date">Date</string>
-    <string name="srvctrl_activities_log_time">Time</string>
-    <string name="srvctrl_activities_log_wrap">Linewrap</string>
+    <string name="srvctrl_activities_log_date">Data</string>
+    <string name="srvctrl_activities_log_time">Horário</string>
+    <string name="srvctrl_activities_log_wrap">Envoltório de linha</string>
     <string name="srvctrl_activities_log_tag_debug">DEBUG</string>
     <string name="srvctrl_activities_log_tag_info">INFO</string>
-    <string name="srvctrl_activities_log_tag_warning">WARN</string>
-    <string name="srvctrl_activities_log_tag_error">ERROR</string>
+    <string name="srvctrl_activities_log_tag_warning">AVISO</string>
+    <string name="srvctrl_activities_log_tag_error">ERRO</string>
     <string name="srvctrl_activities_chat_title">Chat</string>
-    <string name="srvctrl_activities_chat_message_change_name" formatted="false">Player %1$s changed name to %2$s</string>
-    <string name="srvctrl_activities_chat_message_connected_bot" formatted="false">Bot %s has joined the game</string>
-    <string name="srvctrl_activities_chat_message_connected_human" formatted="false">Player %s has joined the game</string>
-    <string name="srvctrl_activities_chat_message_disconnected_bot" formatted="false">Bot %1$s left the game%2$s</string>
-    <string name="srvctrl_activities_chat_message_disconnected_human" formatted="false">Player %1$s left the game%2$s</string>
-    <string name="srvctrl_activities_chat_field_hint">Message</string>
+    <string name="srvctrl_activities_chat_message_change_name" formatted="false">O jogador %1$s mudou o nome para %2$s</string>
+    <string name="srvctrl_activities_chat_message_connected_bot" formatted="false">O bot %s entrou no jogo</string>
+    <string name="srvctrl_activities_chat_message_connected_human" formatted="false">O jogador %s entrou no jogo</string>
+    <string name="srvctrl_activities_chat_message_disconnected_bot" formatted="false">O bot %1$s saiu do jogo%2$s</string>
+    <string name="srvctrl_activities_chat_message_disconnected_human" formatted="false">O jogador %1$s saiu do jogo%2$s</string>
+    <string name="srvctrl_activities_chat_field_hint">Mensagem</string>
     <string name="srvctrl_activities_chat_button_tooltip" tools:ignore="MissingTranslation">@string/srvctrl_console_action_send</string>
-    <string name="srvctrl_activities_chat_empty">No messages have been received yet</string>
-    <string name="srvctrl_activities_chat_error_log">Log listening is not currently active</string>
-    <string name="srvctrl_activities_chat_error_message">Unable to send a message</string>
+    <string name="srvctrl_activities_chat_empty">Nenhuma mensagem foi recebida ainda</string>
+    <string name="srvctrl_activities_chat_error_log">A leitura de log não está ativa no momento</string>
+    <string name="srvctrl_activities_chat_error_message">Não é possível enviar uma mensagem</string>
 
-    <string name="srvctrl_navbar_players">Players</string>
+    <string name="srvctrl_navbar_players">Jogadores</string>
     <string name="srvctrl_navbar_console">Console</string>
-    <string name="srvctrl_navbar_activity">Activities</string>
+    <string name="srvctrl_navbar_activity">Atividades</string>
     <string name="srvctrl_navbar_addons">Addons</string>
     <string name="srvctrl_navbar_info">Info</string>
 
 
     <!--Player Info-->
-    <string name="playerinfo_title">Player info</string>
-    <string name="playerinfo_index">Index:</string>
+    <string name="playerinfo_title">Informações do jogador</string>
+    <string name="playerinfo_index">Índice:</string>
     <string name="playerinfo_steamid" translatable="false">SteamID:</string>
     <string name="playerinfo_steamid2" translatable="false">SteamID2:</string>
     <string name="playerinfo_steamid3" translatable="false">SteamID3:</string>
     <string name="playerinfo_steamid64" translatable="false">SteamID64:</string>
     <string name="playerinfo_ban_vac">VAC ban:</string>
     <string name="playerinfo_ban_trade">Trade ban:</string>
-    <string name="playerinfo_ban_found">Detected</string>
-    <string name="playerinfo_ban_notfound">Not found</string>
+    <string name="playerinfo_ban_found">Detectado</string>
+    <string name="playerinfo_ban_notfound">Não encontrado</string>
     <string name="playerinfo_ip" translatable="false">IP:</string>
-    <string name="playerinfo_country">Country:</string>
-    <string name="playerinfo_city">City:</string>
+    <string name="playerinfo_country">País:</string>
+    <string name="playerinfo_city">Cidade:</string>
     <string name="playerinfo_proxy" translatable="false">Proxy:</string>
     <string name="playerinfo_vpn" translatable="false">VPN:</string>
     <string name="playerinfo_tor" translatable="false">Tor:</string>
     <string name="playerinfo_ping">Ping: %1$d ms</string>
-    <string name="playerinfo_time">Play time: %1$s</string>
+    <string name="playerinfo_time">Tempo de jogo: %1$s</string>
     <string name="playerinfo_score">Score: %1$d</string>
     <string name="playerinfo_kills">Kills: %1$d</string>
     <string name="playerinfo_deaths">Deaths: %1$d</string>
