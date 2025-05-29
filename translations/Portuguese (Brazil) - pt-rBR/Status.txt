@@ -1,3 +1,4 @@
-ChangeLog - 117
+ChangeLog - fully translated
 Strings - 343 
 Gplay-page - fully translated
+Strings-extra - fully translated

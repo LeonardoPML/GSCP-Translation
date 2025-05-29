@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="o_action_exit_confirm">Press again to exit</string>
-	<string name="o_action_accept">Accept</string>
-	<string name="o_action_apply">Apply</string>
-	<string name="o_action_find">Find</string>
-	<string name="o_action_add">Add</string>
-	<string name="o_action_edit">Edit</string>
-	<string name="o_action_delete">Delete</string>
-	<string name="o_action_error">Error</string>
-	<string name="o_action_refresh">Refresh</string>
-	<string name="o_action_retry">Retry</string>
+	<string name="o_action_exit_confirm">Pressione novamente para sair</string>
+	<string name="o_action_accept">Aceitar</string>
+	<string name="o_action_apply">Aplicar</string>
+	<string name="o_action_find">Encontrar</string>
+	<string name="o_action_add">Adicionar</string>
+	<string name="o_action_edit">Editar</string>
+	<string name="o_action_delete">Deletar</string>
+	<string name="o_action_error">Erro</string>
+	<string name="o_action_refresh">Recarregar</string>
+	<string name="o_action_retry">Tentar novamente</string>
 	<string name="o_action_upload">Upload</string>
-	<string name="o_action_remove">Remove</string>
-	<string name="o_action_filter">Filter</string>
-	<string name="o_action_search">Search</string>
-	<string name="o_action_yes">Yes</string>
-	<string name="o_action_no">No</string>
-	<string name="o_action_load">Load</string>
-	<string name="o_action_save">Save</string>
-	<string name="o_action_criterror">Critical Error</string>
-	<string name="o_action_loading">Loading…</string>
-	<string name="o_action_unknown">Unknown</string>
-	<string name="o_action_on">Enabled</string>
-	<string name="o_action_off">Disabled</string>
+	<string name="o_action_remove">Remover</string>
+	<string name="o_action_filter">Filtro</string>
+	<string name="o_action_search">Procurar</string>
+	<string name="o_action_yes">Sim</string>
+	<string name="o_action_no">Não</string>
+	<string name="o_action_load">Carregar</string>
+	<string name="o_action_save">Salvar</string>
+	<string name="o_action_criterror">Erro crítico</string>
+	<string name="o_action_loading">Carregando…</string>
+	<string name="o_action_unknown">Desconhecido</string>
+	<string name="o_action_on">Habilitado</string>
+	<string name="o_action_off">Desabilitador</string>
 
-	<string name="o_tab_prefs">Settings</string>
-	<string name="o_tab_about">About</string>
+	<string name="o_tab_prefs">Configurações</string>
+	<string name="o_tab_about">Sobre</string>
 	<string name="o_tab_debug">Debug</string>
 	<string name="o_tab_login">Login</string>
-	<string name="o_tab_reg">Registration</string>
-	<string name="o_tab_profile">Profile</string>
+	<string name="o_tab_reg">Registro</string>
+	<string name="o_tab_profile">Perfil</string>
 
-	<string name="o_error_invalidopen">Incorrect attempt to open screen</string>
+	<string name="o_error_invalidopen">Tentativa incorreta de abrir a tela</string>
 
-	<string name="o_text_readmore">Read more</string>
-	<string name="o_text_readless">Hide</string>
+	<string name="o_text_readmore">Ler mais</string>
+	<string name="o_text_readless">Esconder</string>
 
-	<string name="o_dialog_del_title">Deleting</string>
-	<string name="o_dialog_del_accept">You confirm removal?</string>
+	<string name="o_dialog_del_title">Apagando</string>
+	<string name="o_dialog_del_accept">Você confirma a remoção?</string>
 
-	<string name="o_dialog_download">Downloading</string>
+	<string name="o_dialog_download">Baixando</string>
 
 	<plurals name="o_plural_days">
-		<item quantity="one">%d day</item>
-		<item quantity="other">%d days</item>
+		<item quantity="one">%d dia</item>
+		<item quantity="other">%d dias</item>
 	</plurals>
 
-	<string name="appbundle_error_multiple">You have incorrectly installed App Bundle.\nPlease install this app from %1$s or %2$s</string>
-	<string name="appbundle_error_single">You have incorrectly installed App Bundle.\nPlease install this app from %1$s</string>
+	<string name="appbundle_error_multiple">Você instalou incorretamente o App Bundle.\nInstale este aplicativo de %1$s ou %2$s</string>
+	<string name="appbundle_error_single">Você instalou incorretamente o App Bundle.\nInstale este aplicativo de %1$s</string>
 	<string name="appbundle_googleplay" translatable="false">Google Play</string>
 	<string name="appbundle_appgallery" translatable="false">AppGallery</string>
 	<string name="appbundle_apkpure" translatable="false">Apkpure.com</string>
 
-	<string name="changelog_dialog_title">Changelog</string>
-	<string name="changelog_dialog_title_latest">Latest changes</string>
-	<string name="changelog_dialog_title_full">Full changelog</string>
-	<string name="changelog_dialog_rate">Rate app</string>
+	<string name="changelog_dialog_title">Log de alteações</string>
+	<string name="changelog_dialog_title_latest">Últimas alterações</string>
+	<string name="changelog_dialog_title_full">Log de alterações completo</string>
+	<string name="changelog_dialog_rate">Avalie o aplicativo</string>
 	<string name="changelog_error_invalidopen">@string/o_error_invalidopen</string>
 
 	<string name="about_title">@string/o_tab_about</string>
 	<string name="aboutLibraries_description_showIcon" translatable="false">true</string>
 	<string name="aboutLibraries_description_showVersion" translatable="false">true</string>
-	<string name="aboutLibraries_description_special1_name">Rate app</string>
-	<string name="aboutLibraries_description_special2_name">Changelog</string>
+	<string name="aboutLibraries_description_special1_name">Avalie o aplicativo</string>
+	<string name="aboutLibraries_description_special2_name">Log de alteações</string>
 
-	<string name="customactivityoncrash_error_activity_close_app">Close app</string>
-	<string name="customactivityoncrash_error_activity_error_details">Error details</string>
-	<string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
-	<string name="customactivityoncrash_error_activity_error_details_close">Close</string>
-	<string name="customactivityoncrash_error_activity_error_details_copied">Copied to clipboard</string>
-	<string name="customactivityoncrash_error_activity_error_details_copy">Copy to clipboard</string>
-	<string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
-	<string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred.\nSorry for the inconvenience.</string>
-	<string name="customactivityoncrash_error_activity_restart_app">Restart app</string>
+	<string name="customactivityoncrash_error_activity_close_app">Fechar aplicativo</string>
+	<string name="customactivityoncrash_error_activity_error_details">Detalhes do erro</string>
+	<string name="customactivityoncrash_error_activity_error_details_clipboard_label">Informações de erro</string>
+	<string name="customactivityoncrash_error_activity_error_details_close">Fechar</string>
+	<string name="customactivityoncrash_error_activity_error_details_copied">Copiado para a área de transferência</string>
+	<string name="customactivityoncrash_error_activity_error_details_copy">Copiar para a área de transferência</string>
+	<string name="customactivityoncrash_error_activity_error_details_title">Detalhes do erro</string>
+	<string name="customactivityoncrash_error_activity_error_occurred_explanation">Ocorreu um erro inesperado.\nDesculpe pelo inconveniente.</string>
+	<string name="customactivityoncrash_error_activity_restart_app">Reiniciar aplicativo</string>
 </resources>

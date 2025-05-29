@@ -116,13 +116,13 @@
         <info>Atualizado translation[br](Thanks Kruzya)</info>
     </release>
     <release versionCode="20" versionName="0.8.8" date="12.10.2019">
-        <bugfix>Corrigido travamentos after trying to edit removed server</bugfix>
-        <bugfix>Corrigido travamentos raros after trying to send an RCON command</bugfix>
-        <bugfix>Corrigido loading untitled maps via Myarena API</bugfix>
-        <bugfix>Corrigido wrong calculation of players count on CS:GO servers with bots</bugfix>
-        <bugfix>Partially fixed wrong calculation of players count on servers with GOTV</bugfix>
+        <bugfix>Corrigido travamentos após tentar editar servidor removido</bugfix>
+        <bugfix>Corrigido travamentos raros após tentar enviar um comando RCON</bugfix>
+        <bugfix>Corrigido carregamento de mapas sem título via API Myarena</bugfix>
+        <bugfix>Corrigido cálculo incorreto da contagem de jogadores em servidores de CS:GO com bots</bugfix>
+        <bugfix>Corrigido cálculo incorreto da contagem de jogadores em servidores com GOTV</bugfix>
         <info>Pequenas melhorias na interface</info>
-        <info>Atualizado supported languages list[br](Thanks Augus Salon)</info>
+        <info>Lista de idiomas suportados atualizada[br](Obrigado, Augus Salon)</info>
     </release>
     <release versionCode="19" versionName="0.8.7" date="01.09.2019">
         <bugfix>Corrigido search players bans and stats</bugfix>
@@ -134,62 +134,69 @@
         <info>Atualizado translation[br](Thanks Paranoiiik)</info>
     </release>
     <release versionCode="18" versionName="0.8.6" date="07.07.2019">
-        <bugfix>Corrigido travamentos raros after checking network connection</bugfix>
+        <bugfix><bugfix>Corrigido travamentos raros após verificar a conexão de rede</bugfix>
         <bugfix>Corrigido travamentos raros after trying to open camera</bugfix>
-        <bugfix>Corrigido loading of available commands on goldsource servers</bugfi>
+        <bugfix>Corrigido carregamento de comandos disponíveis nos servidores goldsource</bugfi>
         <bugfix>Corrigido loading of players list if goldsource server using HLTV</bugfix> 
         <bugfix>Corrigido loading avatars after scrolling players list</bugfix>
         <info>Pequenas alterações na interface</info>
         <info>Reduzido app size</info>
+        <info>Lista de idiomas suportados atualizado[br](Obrigado Pjeter Jetishi)</info></bugfix>
+        <bugfix>Corrigido travamentos raros after trying to open camera</bugfix>
+        <bugfix>Corrigido loading of available commands on goldsource servers</bugfi>
+        <bugfix>Corrigido carregamento da lista de jogadores se servidor goldsource usando HLTV</bugfix> 
+        <bugfix>Corrigido carregando avatares após rolar a lista de jogadores</bugfix>
+        <info>Pequenas alterações na interface</info>
+        <info>Tamanho reduzido do aplicativo</info>
         <info>Atualizado supported languages list[br](Thanks Pjeter Jetishi)</info>
     </release>
     <release versionCode="17" versionName="0.8.5" date="01.06.2019">
-        <bugfix>Corrigido travamentos after an invalid attempt to open app</bugfix>
-        <bugfix>Corrigido travamentos raros after changing section in CP</bugfix>
-        <bugfix>Corrigido detection of SB++ if using Material Admin</bugfix>
-        <bugfix>Corrigido display of cvars list after closing search bar</bugfix>
-        <info>Removido requirement to enter server name in add server screen</info>
-        <info>Melhorado stability of cvars list loading</info>
-        <info>Melhorado error handling after checking server connection</info>
-        <info>Replaced «server outdated» icon</info>
-        <info>Redesigned players list item layout</info>
-        <info>Melhorado UI on Android 4.4</info>
-        <info>Many minor improvements and fixes</info>
+        <bugfix>Corrigido travamentos após uma tentativa inválida de abrir o aplicativo</bugfix>
+        <bugfix>CCorrigido travamentos raros após alterar a seção no CP</bugfix>
+        <bugfix>Corrigido detecção de SB++ ao usar o Material Admin</bugfix>
+        <bugfix>Corrigido exibição da lista de cvars após fechar a barra de pesquisa</bugfix>
+        <info>Removido o requisito de inserir o nome do servidor na tela de adicionar servidor</info>
+        <info>Melhorado estabilidade do carregamento da lista de cvars</info>
+        <info>Melhorado tratamento de erros após verificar a conexão do servidor</info>
+        <info>Substituido ícone «servidor desatualizado»</info>
+        <info>Redesenhado layout dos itens da lista de jogadores</info>
+        <info>Melhorado interface do usuário no Android 4.4</info>
+        <info>Varias pequenas melhorias e correções</info>
     </release>
     <release versionCode="16" versionName="0.8.4" date="04.05.2019">
-        <bugfix>Corrigido travamentos after an invalid attempt to open a server CP</bugfix>
-        <bugfix>Corrigido travamentos after incorrect Aplicativo Bundle install</bugfix>
-        <bugfix>Corrigido travamentos raros after trying to start log listening service</bugfix>
-        <bugfix>Corrigido incorrect disabling of settings items</bugfix>
-        <bugfix>Corrigido missing avatars of players after a failed download</bugfix>
-        <bugfix>Corrigido ban on GoldSource servers using «engine» ban type</bugfix>
-        <bugfix>Corrigido bugs when using old style queries on GoldSource servers</bugfix>
-        <info>Melhorias menores and bug fixes</info>
+        <bugfix>Corrigido travamentos após uma tentativa inválida de abrir um CP de servidor</bugfix>
+        <bugfix>Corrigido travamentos após instalação incorreta do Pacote de Aplicativos</bugfix>
+        <bugfix>Corrigido travamentos raros após tentar iniciar o serviço de leitura de logs</bugfix>
+        <bugfix>Corrigido desabilitação incorreta de itens de configuração</bugfix>
+        <bugfix>Corrigido avatares de jogadores ausentes após falha no download</bugfix>
+        <bugfix>Corrigido banimento em servidores GoldSource usando o tipo de banimento «engine»</bugfix>
+        <bugfix>Corrigido bugs ao usar consultas antigas em servidores</bugfix>
+        <info>Melhorias menores e correções de bugs</info>
     </release>
     <release versionCode="15" versionName="0.8.3" date="09.04.2019">
-        <bugfix>Corrigido travamentos when app is installed not from Google Play</bugfix>
-        <bugfix>Corrigido travamentos in changelog dialog on some devices</bugfix>
-        <bugfix>Corrigido travamentos after kick/ban/mute player from main screen</bugfix>
-        <bugfix>Corrigido travamentos after rotating settings screen</bugfix>
-        <bugfix>Corrigido travamentos on devices without a back camera</bugfix>
-        <bugfix>Corrigido travamentos raros when trying to delete RCON shortcut</bugfix>
-        <bugfix>Corrigido travamentos raros after refreshing server info from the main screen</bugfix>
+        <bugfix>Corrigido travamentos quando o aplicativo não é instalado no Google Play</bugfix>
+        <bugfix>Corrigido travamentos na caixa de diálogo changelog em alguns dispositivos</bugfix>
+        <bugfix>Corrigido travamentos após expulsar/banir/silenciar jogador da tela principal</bugfix>
+        <bugfix>Corrigido travamentos após girar a tela de configurações</bugfix>
+        <bugfix>Corrigido travamentos em dispositivos sem câmera traseira</bugfix>
+        <bugfix>Corrigido travamentos raros ao tentar excluir o atalho RCON</bugfix>
+        <bugfix>>Corrigido travamentos raros após atualizar as informações do servidor na tela principal</bugfix>
         <info>Pequenas alterações na interface</info>
     </release>
     <release versionCode="14" versionName="0.8.2" date="15.03.2019">
-        <bugfix>Corrigido crash when trying to view player info without Steam ID</bugfix>
-        <bugfix>Corrigido crash during a long press on Samsung devices</bugfix>
-        <bugfix>Corrigido errors when updating app DB structure</bugfix>
-        <bugfix>Corrigido incorrect display of access flags</bugfix>
+        <bugfix>Corrigido trava ao tentar visualizar informações de um jogador sem o ID Steam</bugfix>
+        <bugfix>Corrigido trava ao pressionar longamente em dispositivos Samsung</bugfix>
+        <bugfix>CCorrigido erros ao atualizar a estrutura do banco de dados do aplicativo</bugfix>
+        <bugfix>Corrigido exibição incorreta de sinalizadores de acesso</bugfix>
         <info>Pequenas correções na interface</info>
     </release>
     <release versionCode="13" versionName="0.8.1" date="11.03.2019">
-        <bugfix>Corrigido travamentos when server variables could not be loaded</bugfix>
-        <bugfix>Corrigido displaying a false error after changing a variable</bugfix>
-        <info>Reduzido the number of requests cvars list</info>
+        <bugfix>Corrigido trava quando variáveis de servidor não podem ser carregadas</bugfix>
+        <bugfix>Corrigido exibindo um erro falso após alterar uma variável</bugfix>
+        <info>Reduzido o número de solicitações da lista de variáveis cvars</info>
     </release>
     <release versionCode="12" versionName="0.8.0" date="09.03.2019">
-        <new>Suporte paraa Android 4.4 e 9.0</new>
+        <new>Suporte para Android 4.4 e 9.0</new>
         <new>Suporte a Ulysses Mod</new>
         <new>Recursos usados pelo servidor</new>
         <new>Informações detalhadas dos jogadores</new>
