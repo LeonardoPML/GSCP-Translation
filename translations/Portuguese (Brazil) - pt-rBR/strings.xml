@@ -593,146 +593,146 @@
     <string name="playerinfo_tor" translatable="false">Tor:</string>
     <string name="playerinfo_ping">Ping: %1$d ms</string>
     <string name="playerinfo_time">Tempo de jogo: %1$s</string>
-    <string name="playerinfo_score">Score: %1$d</string>
-    <string name="playerinfo_kills">Kills: %1$d</string>
-    <string name="playerinfo_deaths">Deaths: %1$d</string>
+    <string name="playerinfo_score">Pontuação: %1$d</string>
+    <string name="playerinfo_kills">Matou: %1$d</string>
+    <string name="playerinfo_deaths">Morreu: %1$d</string>
     <string name="playerinfo_flags">Admin flags:</string>
-    <string name="playerinfo_flagsgmod">Group/Admin flags:</string>
+    <string name="playerinfo_flagsgmod">Grupo/Admin flags:</string>
     <string name="playerinfo_unknown" tools:ignore="MissingTranslation">@string/o_action_unknown</string>
-    <string name="playerinfo_required">Required %1$s</string><!--SteamID2/SteamID3/SteamID64-->
-    <string name="playerinfo_bansid">Steam ID bans</string>
-    <string name="playerinfo_bansip">IP bans</string>
-    <string name="playerinfo_mutes">Mutes</string>
-    <string name="playerinfo_stats">Game Stats</string>
-    <string name="playerinfo_actions">Actions</string>
-    <string name="playerinfo_name_copy">Player name copied to clipboard</string>
-    <string name="playerinfo_name_copyerror">Unable to copy player name to the clipboard</string>
-    <string name="playerinfo_error_invalidplayer">Incorrect attempt to open player info</string>
-    <string name="playerinfo_error_failedget">Failed to get %1$s</string><!--SteamID2/SteamID3/SteamID64-->
+    <string name="playerinfo_required">Obrigatório %1$s</string><!--SteamID2/SteamID3/SteamID64-->
+    <string name="playerinfo_bansid">Steam ID banidos</string>
+    <string name="playerinfo_bansip">IPs Baidos</string>
+    <string name="playerinfo_mutes">Mutados</string>
+    <string name="playerinfo_stats">Estatísticas do jogo</string>
+    <string name="playerinfo_actions">Ações</string>
+    <string name="playerinfo_name_copy">Nome do jogador copiado para a área de transferência</string>
+    <string name="playerinfo_name_copyerror">Não é possível copiar o nome do jogador para a área de transferência</string>
+    <string name="playerinfo_error_invalidplayer">Tentativa incorreta de abrir informações do jogador</string>
+    <string name="playerinfo_error_failedget">Não foi possível obter %1$s</string><!--SteamID2/SteamID3/SteamID64-->
 
 
     <!--Addon Info-->
     <string name="addoninfo_title">Addon info</string>
     <string name="addoninfo_sort" tools:ignore="MissingTranslation">@string/srvctrl_players_sort</string>
     <string name="addoninfo_sort_ascending" tools:ignore="MissingTranslation">@string/srvctrl_players_sort_ascending</string>
-    <string name="addoninfo_sort_id">Identifier</string>
+    <string name="addoninfo_sort_id">Identificador</string>
     <string name="addoninfo_sort_status">Status</string>
-    <string name="addoninfo_sort_name">Name</string>
-    <string name="addoninfo_sort_author">Author</string>
-    <string name="addoninfo_sort_version">Version</string>
+    <string name="addoninfo_sort_name">Nome</string>
+    <string name="addoninfo_sort_author">Autor</string>
+    <string name="addoninfo_sort_version">Versão</string>
     <string name="addoninfo_actions" tools:ignore="MissingTranslation">@string/playerinfo_actions</string>
     <string name="addoninfo_request_sended" tools:ignore="MissingTranslation">@string/srvctrl_players_reqsended</string>
-    <string name="addoninfo_name_copy">Addon name copied to clipboard</string>
-    <string name="addoninfo_name_copyerror">Unable to copy addon name to the clipboard</string>
-    <string name="addoninfo_error_invalidaddon">Incorrect attempt to open addon info</string>
-    <string name="addoninfo_error_action">Action failed</string>
-    <string name="addoninfo_error_description">Unable to load addon description</string>
-    <string name="addoninfo_subaddons_error">Failed to get %1$s list</string><!--Extension/Modules/Plugins-->
-    <string name="addoninfo_subaddons_empty">%1$s not found</string><!--Extension/Modules/Plugins-->
+    <string name="addoninfo_name_copy">Nome do addon copiado para a área de transferência</string>
+    <string name="addoninfo_name_copyerror">Não é possível copiar o nome do addon para a área de transferência</string>
+    <string name="addoninfo_error_invalidaddon">Tentativa incorreta de abrir informações do addon</string>
+    <string name="addoninfo_error_action">Ação falhou</string>
+    <string name="addoninfo_error_description">Não é possível carregar a descrição do complemento</string>
+    <string name="addoninfo_subaddons_error">Falha ao obter a lista %1$s</string><!--Extension/Modules/Plugins-->
+    <string name="addoninfo_subaddons_empty">%1$s não encontrado</string><!--Extension/Modules/Plugins-->
     <string name="addoninfo_subaddon_status">Status: %1$s</string>
-    <string name="addoninfo_subaddon_file">File: %1$s</string>
-    <string name="addoninfo_subaddon_author">Author: %1$s</string>
-    <string name="addoninfo_subaddon_version">Version: %1$s</string>
+    <string name="addoninfo_subaddon_file">Arquivo: %1$s</string>
+    <string name="addoninfo_subaddon_author">Autor: %1$s</string>
+    <string name="addoninfo_subaddon_version">Versão: %1$s</string>
 
 
     <!--Dialogs-->
-    <string name="dialog_games_title">Select a game</string>
-    <string name="dialog_hosts_title">Select an API</string>
-    <string name="dialog_servers_title">Select a server</string>
-    <string name="dialog_servers_error_description">Failed to load servers list</string>
-    <string name="dialog_fastcmd_title">Edit RCON shortcuts</string>
-    <string name="dialog_accept_action_title">Confirm action</string>
-    <string name="dialog_accept_exit_descr">Exit without saving?</string>
-    <string name="dialog_accept_recreate_descr">Are you sure you want to restore the default RCON shortcuts list?</string>
-    <string name="dialog_accept_restart_descr">Are you sure you want to restart the server?</string>
-    <string name="dialog_accept_stop_descr">Are you sure you want to stop the server?</string>
-    <string name="dialog_accept_clear_descr">Are you sure you want to clear the database? All saved servers will be deleted.</string>
-    <string name="dialog_accept_action_descr">Are you sure you want to perform this action?</string>
+    <string name="dialog_games_title">Selecione um jogo</string>
+    <string name="dialog_hosts_title">Selecione uma API</string>
+    <string name="dialog_servers_title">Selecione um servidor</string>
+    <string name="dialog_servers_error_description">Falha ao carregar a lista de servidores</string>
+    <string name="dialog_fastcmd_title">Editar atalhos RCON</string>
+    <string name="dialog_accept_action_title">Confirmar ação</string>
+    <string name="dialog_accept_exit_descr">Sair sem salvar?</string>
+    <string name="dialog_accept_recreate_descr">Tem certeza de que deseja restaurar a lista de atalhos padrão do RCON?</string>
+    <string name="dialog_accept_restart_descr">Tem certeza de que deseja reiniciar o servidor?</string>
+    <string name="dialog_accept_stop_descr">Tem certeza de que deseja parar o servidor?</string>
+    <string name="dialog_accept_clear_descr">AreTem certeza de que deseja limpar o banco de dados? Todos os servidores salvos serão excluídos.</string>
+    <string name="dialog_accept_action_descr">Tem certeza de que deseja executar esta ação?</string>
 
-    <string name="dialog_input_title">Enter the value</string>
-    <string name="dialog_input_value">Value</string>
+    <string name="dialog_input_title">Digite o valore</string>
+    <string name="dialog_input_value">Valor</string>
 
-    <string name="dialog_console_props_title">Console properties</string>
-    <string name="dialog_console_props_linewrap">Line wrap</string>
-    <string name="dialog_console_props_provider">Request type</string>
+    <string name="dialog_console_props_title">Propriedades do console</string>
+    <string name="dialog_console_props_linewrap">Quebra de linha</string>
+    <string name="dialog_console_props_provider">Tipo de solicitação</string>
     <string name="dialog_console_props_provider_rcon" translatable="false">RCON</string>
     <string name="dialog_console_props_provider_api" translatable="false">API</string>
-    <string name="dialog_console_props_autocomplete">Autocomplete mode</string>
-    <string name="dialog_console_props_autocomplete_all">Commands and variables</string>
-    <string name="dialog_console_props_autocomplete_cmds">Commands</string>
-    <string name="dialog_console_props_autocomplete_vars">Variables</string>
+    <string name="dialog_console_props_autocomplete">Modo de preenchimento automático</string>
+    <string name="dialog_console_props_autocomplete_all">Comandos e variáveis</string>
+    <string name="dialog_console_props_autocomplete_cmds">Comandos</string>
+    <string name="dialog_console_props_autocomplete_vars">Variáveis</string>
 
-    <string name="dialog_map_change_title">Change map</string>
-    <string name="dialog_map_change_value_hint">Map</string>
+    <string name="dialog_map_change_title">Trocar mapa</string>
+    <string name="dialog_map_change_value_hint">Mapa</string>
 
-    <string name="dialog_outdated_title">Checking server version</string>
-    <string name="dialog_outdated_descr">Your server is outdated</string>
-    <string name="dialog_outdated_srvvrs">Server version:</string>
-    <string name="dialog_outdated_latestvrs">Latest version:</string>
-    <string name="dialog_outdated_reunion">Failed to get the server version. If you are using DProto/Reunion, set the value of <b>ServerInfoAnswerType</b> to 0 or 2</string>
+    <string name="dialog_outdated_title">Verificando a versão do servidor</string>
+    <string name="dialog_outdated_descr">Seu servidor está desatualizado</string>
+    <string name="dialog_outdated_srvvrs">Versão do servidor:</string>
+    <string name="dialog_outdated_latestvrs">Última versão:</string>
+    <string name="dialog_outdated_reunion">Falha ao obter a versão do servidor. Se estiver usando DProto/Reunion, defina o valor de <b>ServerInfoAnswerType</b> como 0 ou 2.</string>
 
-    <string name="dialog_variable_oldvalue">Old value: %1$s</string>
-    <string name="dialog_variable_newvalue">New value</string>
-    <string name="dialog_variable_changed">Variable value changed%1$s</string>
-    <string name="dialog_variable_notchanged">Could not change variable value</string>
-    <string name="dialog_variable_notfound">Variable not found</string>
+    <string name="dialog_variable_oldvalue">Valor antigo: %1$s</string>
+    <string name="dialog_variable_newvalue">Novo valor</string>
+    <string name="dialog_variable_changed">Valor da variável alterado%1$s</string>
+    <string name="dialog_variable_notchanged">Não foi possível alterar o valor da variável</string>
+    <string name="dialog_variable_notfound">Variável não encontrada</string>
 
-    <string name="dialog_chat_message_type_title">Select message type</string>
+    <string name="dialog_chat_message_type_title">Selecione o tipo de mensagem</string>
 
-    <string name="dialog_subaddon_title_extension">Extension info</string>
-    <string name="dialog_subaddon_title_module">Module info</string>
-    <string name="dialog_subaddon_title_plugin">Plugin info</string>
-    <string name="dialog_subaddon_error_description">Unable to load description</string>
-    <string name="dialog_subaddon_tab_actions">Actions</string>
+    <string name="dialog_subaddon_title_extension">Informações de extensão</string>
+    <string name="dialog_subaddon_title_module">Informações do módulo</string>
+    <string name="dialog_subaddon_title_plugin">Informações do plugin</string>
+    <string name="dialog_subaddon_error_description">Não foi possível carregar a descrição</string>
+    <string name="dialog_subaddon_tab_actions">Ações</string>
     <string name="dialog_subaddon_tab_cmds" tools:ignore="MissingTranslation">@string/srvctrl_info_cmds_title</string>
     <string name="dialog_subaddon_tab_vars" tools:ignore="MissingTranslation">@string/srvctrl_info_vars_title</string>
-    <string name="dialog_subaddon_cmds_error">Failed to get commands list</string>
-    <string name="dialog_subaddon_cmds_empty">Commands not found</string>
+    <string name="dialog_subaddon_cmds_error">Falha ao obter a lista de comandos</string>
+    <string name="dialog_subaddon_cmds_empty">Comandos não encontrados</string>
     <string name="dialog_subaddon_cmds_copy" tools:ignore="MissingTranslation">@string/srvctrl_info_cmds_copy</string>
     <string name="dialog_subaddon_cmds_copyerror" tools:ignore="MissingTranslation">@string/srvctrl_info_cmds_copyerror</string>
-    <string name="dialog_subaddon_vars_error">Failed to get variables list</string>
-    <string name="dialog_subaddon_vars_empty">Variables not found</string>
+    <string name="dialog_subaddon_vars_error">Falha ao obter a lista de variáveis</string>
+    <string name="dialog_subaddon_vars_empty">Variáveis não encontradas</string>
     <string name="dialog_subaddon_vars_copy" tools:ignore="MissingTranslation">@string/srvctrl_info_vars_copy</string>
     <string name="dialog_subaddon_vars_copyerror" tools:ignore="MissingTranslation">@string/srvctrl_info_vars_copyerror</string>
 
-    <string name="dialog_color_picker_title">Choose a color</string>
+    <string name="dialog_color_picker_title">Escolha uma cor</string>
 
-    <string name="dialog_action_ban_title">Ban player</string>
-    <string name="dialog_action_kick_title">Kick player</string>
-    <string name="dialog_action_mute_title">Mute player</string>
-    <string name="dialog_action_mode">Type</string>
-    <string name="dialog_action_type">Command/Plugin</string>
-    <string name="dialog_action_storage">Storage</string>
-    <string name="dialog_action_reason">Reason</string>
-    <string name="dialog_action_time_spn">Time</string>
-    <string name="dialog_action_time_edit">Time (in minutes)</string>
-    <string name="dialog_action_time_error_ban">Incorrect ban time</string>
-    <string name="dialog_action_time_error_mute">Incorrect mute time</string>
+    <string name="dialog_action_ban_title">Banir jogador</string>
+    <string name="dialog_action_kick_title">Kickar jogador</string>
+    <string name="dialog_action_mute_title">Mutar jogador</string>
+    <string name="dialog_action_mode">Tipo</string>
+    <string name="dialog_action_type">Comando/Plugin</string>
+    <string name="dialog_action_storage">Armazenamento</string>
+    <string name="dialog_action_reason">Razão</string>
+    <string name="dialog_action_time_spn">Tempo</string>
+    <string name="dialog_action_time_edit">Tempo (em minutos)</string>
+    <string name="dialog_action_time_error_ban">Tempo de banimento incorreto</string>
+    <string name="dialog_action_time_error_mute">Tempo de mudo incorreto</string>
     <string-array name="dialog_action_time_text">
-        <item>Permanent</item>
-        <item>Manually</item>
-        <item>10 minute</item>
-        <item>30 minute</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>4 hours</item>
-        <item>8 hours</item>
-        <item>12 hours</item>
-        <item>1 day</item>
-        <item>2 days</item>
-        <item>3 days</item>
-        <item>4 days</item>
-        <item>5 days</item>
-        <item>6 days</item>
-        <item>1 week</item>
-        <item>2 weeks</item>
-        <item>3 weeks</item>
-        <item>1 month</item>
-        <item>2 months</item>
-        <item>3 months</item>
-        <item>6 months</item>
-        <item>12 months</item>
-        <item>1 year</item>
+        <item>Permanente</item>
+        <item>Manualmente</item>
+        <item>10 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>4 horas</item>
+        <item>8 horas</item>
+        <item>12 horas</item>
+        <item>1 dia</item>
+        <item>2 dias</item>
+        <item>3 dias</item>
+        <item>4 dias</item>
+        <item>5 dias</item>
+        <item>6 dias</item>
+        <item>1 semana</item>
+        <item>2 semanas</item>
+        <item>3 semanas</item>
+        <item>1 mês</item>
+        <item>2 meses</item>
+        <item>3 meses</item>
+        <item>6 meses</item>
+        <item>12 meses</item>
+        <item>1 ano</item>
     </string-array>
     <integer-array name="dialog_action_time_value">
         <item>0</item>
@@ -763,48 +763,48 @@
 
 
     <!--App widget-->
-    <string name="widget_title">Server widget</string>
-    <string name="widget_pick_title">Widget preferences</string>
-    <string name="widget_pick_server_title">Server</string>
-    <string name="widget_pick_error_srvnotfound">Servers not found</string>
-    <string name="widget_pick_transparency">Transparency</string>
-    <string name="widget_pick_outline">Outline</string>
-    <string name="widget_type_title">Widget type</string>
+    <string name="widget_title">Widget de servidor</string>
+    <string name="widget_pick_title">Preferências de widget</string>
+    <string name="widget_pick_server_title">Servidor</string>
+    <string name="widget_pick_error_srvnotfound">Servidores não encontrados</string>
+    <string name="widget_pick_transparency">Transparência</string>
+    <string name="widget_pick_outline">Contorno</string>
+    <string name="widget_type_title">Tipo de widget</string>
     <string name="widget_type_mini">Micro</string>
-    <string name="widget_type_compact">Compact</string>
-    <string name="widget_type_normal">Default</string>
-    <string name="widget_type_extended">Extended</string>
-    <string name="widget_style_title">Widget style</string>
-    <string name="widget_style_image">Image</string>
-    <string name="widget_style_dark">Dark</string>
-    <string name="widget_style_light">Light</string>
+    <string name="widget_type_compact">Compacto</string>
+    <string name="widget_type_normal">Padrão</string>
+    <string name="widget_type_extended">Extendido</string>
+    <string name="widget_style_title">Estilo do widget</string>
+    <string name="widget_style_image">Imagem</string>
+    <string name="widget_style_dark">Escuro</string>
+    <string name="widget_style_light">Claro</string>
 
 
     <!--Notifications-->
-    <string name="notify_channel_outdate">Server version checker</string>
-    <string name="notify_channel_services">Foreground services</string>
+    <string name="notify_channel_outdate">Verificador de versão do servidor</string>
+    <string name="notify_channel_services">Serviços de primeiro plano</string>
 
-    <string name="notify_outdate_title">Server is outdated</string>
+    <string name="notify_outdate_title">O servidor está desatualizado</string>
     <string name="notify_console_title">Console</string>
-    <string name="notify_console_description">To stop the console, close the server control screen</string>
-    <string name="notify_log_listener_title">Chat/Log listener</string>
-    <string name="notify_log_listener_description">To stop the log listener, close the server control screen</string>
+    <string name="notify_console_description">Para parar o console, feche a tela de controle do servidor</string>
+    <string name="notify_log_listener_title">Chat/Leitor de log</string>
+    <string name="notify_log_listener_description">Para parar o leitor de log, feche a tela de controle do servidor</string>
 
 
     <!--Preferences-->
-    <string name="pref_syncservice_title">Background sync frequency</string>
-    <string name="pref_syncservice_descr">Basic server info (Players, map, ping, etc.)</string>
-    <string name="pref_fullsyncservice_title">Background full sync frequency</string>
-    <string name="pref_fullsyncservice_descr">Map list, cvars, available features, etc.</string>
+    <string name="pref_syncservice_title">Frequência de sincronização de fundo</string>
+    <string name="pref_syncservice_descr">Informações básicas do servidor (jogadores, mapa, ping, etc.)</string>
+    <string name="pref_fullsyncservice_title">Frequência de sincronização completa de fundo</string>
+    <string name="pref_fullsyncservice_descr">Lista de mapas, cvars, recursos disponíveis, etc.</string>
     <string-array name="pref_syncservice_text">
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>4 hours</item>
-        <item>6 hours</item>
-        <item>8 hours</item>
-        <item>Never</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>4 horas</item>
+        <item>6 horas</item>
+        <item>8 horas</item>
+        <item>Nunca</item>
     </string-array>
     <string-array name="pref_syncservice_value" translatable="false">
         <item>15</item>
@@ -817,12 +817,12 @@
         <item>-1</item>
     </string-array>
     <string-array name="pref_fullsyncservice_text">
-        <item>12 hours</item>
-        <item>1 day</item>
-        <item>2 days</item>
-        <item>3 days</item>
-        <item>4 days</item>
-        <item>1 week</item>
+        <item>12 horas</item>
+        <item>1 dia</item>
+        <item>2 dias</item>
+        <item>3 dias</item>
+        <item>4 dias</item>
+        <item>1 semana</item>
     </string-array>
     <string-array name="pref_fullsyncservice_value" translatable="false">
         <item>720</item>
@@ -833,22 +833,22 @@
         <item>10080</item>
     </string-array>
 
-    <string name="pref_notify_title">Server outdate notification</string>
-    <string name="pref_notify_descr">Only if checking is enabled in the server settings</string>
-    <string name="pref_logsport_title">Logs listening port</string>
-    <string name="pref_logsport_descr">This port must be open on the router</string>
+    <string name="pref_notify_title">Notificação de desatualização do servidor</string>
+    <string name="pref_notify_descr">Somente se a verificação estiver habilitada nas configurações do servidor</string>
+    <string name="pref_logsport_title">Porta do leitor de logs</string>
+    <string name="pref_logsport_descr">Esta porta deve estar aberta no roteador</string>
     <string name="pref_logsport_hint" translatable="false">7131</string>
-    <string name="pref_logsport_error_empty">The field must not be empty</string>
-    <string name="pref_logsport_error_minmax">The field can have a value from 1024 to 65535</string>
-    <string name="pref_logsport_error_alrused">Port already in use</string>
+    <string name="pref_logsport_error_empty">O campo não deve estar vazio</string>
+    <string name="pref_logsport_error_minmax">O campo pode ter um valor de 1024 a 65535</string>
+    <string name="pref_logsport_error_alrused">Porta já em uso</string>
     <string name="pref_logsupnp_title" translatable="false">UPnP</string>
-    <string name="pref_logsupnp_descr">Use UPnP to automatically open the port</string>
+    <string name="pref_logsupnp_descr">Use UPnP para abrir a porta automaticamente</string>
 
     <string name="pref_ui_title" translatable="false">UI</string>
-    <string name="pref_ui_theme">Theme</string>
-    <string name="pref_ui_theme_entry_light">Light</string>
-    <string name="pref_ui_theme_entry_dark">Dark</string>
-    <string name="pref_ui_theme_entry_default">System default</string>
+    <string name="pref_ui_theme">Tema</string>
+    <string name="pref_ui_theme_entry_light">Claro</string>
+    <string name="pref_ui_theme_entry_dark">Escuro</string>
+    <string name="pref_ui_theme_entry_default">Padrão do sistema</string>
     <string name="pref_ui_theme_default_value" translatable="false">0</string>
     <string-array name="pref_ui_theme_entries" tools:ignore="InconsistentArrays">
         <item>@string/pref_ui_theme_entry_light</item>
@@ -858,13 +858,13 @@
         <item>0</item>
         <item>1</item>
     </string-array>
-    <string name="pref_ui_compact_title_title">Compact titles</string>
-    <string name="pref_ui_compact_title_descr">Server names and player names</string>
-    <string name="pref_ui_compact_servers_title">Compact servers list</string>
-    <string name="pref_ui_servers_sort_type">Servers list sorting</string>
-    <string name="pref_ui_servers_sort_type_entry_date">Add date</string>
-    <string name="pref_ui_servers_sort_type_entry_name">Title</string>
-    <string name="pref_ui_servers_sort_type_entry_game">Game</string>
+    <string name="pref_ui_compact_title_title">Títulos compactos</string>
+    <string name="pref_ui_compact_title_descr">Nomes de servidores e nomes de jogadores</string>
+    <string name="pref_ui_compact_servers_title">Lista de servidores compactos</string>
+    <string name="pref_ui_servers_sort_type">Classificação de lista de servidores</string>
+    <string name="pref_ui_servers_sort_type_entry_date">Adicionar data</string>
+    <string name="pref_ui_servers_sort_type_entry_name">Titulo</string>
+    <string name="pref_ui_servers_sort_type_entry_game">Jogo</string>
     <string-array name="pref_ui_servers_sort_type_entries">
         <item>@string/pref_ui_servers_sort_type_entry_date</item>
         <item>@string/pref_ui_servers_sort_type_entry_name</item>
@@ -875,11 +875,11 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-    <string name="pref_ui_servers_sort_ascending">Sort Ascending</string>
+    <string name="pref_ui_servers_sort_ascending">Ordenar em ordem crescente</string>
 
-    <string name="pref_web_title">Web Resources</string>
-    <string name="pref_web_checking">URL checking…</string>
-    <string name="pref_web_founded">A mobile version of the site has been found. Use it? (Desktop version of the site may work incorrectly)</string>
+    <string name="pref_web_title">Recursos da Web</string>
+    <string name="pref_web_checking">Verificação de URL…</string>
+    <string name="pref_web_founded">Uma versão móvel do site foi encontrada. Você a utiliza? (A versão para desktop do site pode não funcionar corretamente)</string>
     <string name="pref_web_ab_title" translatable="false">AmxBans URL</string>
     <string name="pref_web_ab_hint" translatable="false">https://mysite.com/amxbans</string>
     <string name="pref_web_sb_title" translatable="false">SourceBans URL</string>
@@ -890,36 +890,36 @@
     <string name="pref_web_hlx_title" translatable="false">HLstatsX:CE URL</string>
     <string name="pref_web_hlx_hint" translatable="false">https://mysite.com/hlstats</string>
 
-    <string name="pref_privacy_title">Privacy</string>
-    <string name="pref_privacy_gdpr_title">GDPR options</string>
-    <string name="pref_privacy_gdpr_error">Failed to open options form</string>
+    <string name="pref_privacy_title">Privacidade</string>
+    <string name="pref_privacy_gdpr_title">Opções do RGPD</string>
+    <string name="pref_privacy_gdpr_error">Falha ao abrir o formulário de opções</string>
 
-    <string name="pref_debug_title">Debug</string>
-    <string name="pref_debug_show_title">Debug settings</string>
-    <string name="pref_debug_extrasrvinfo_title">Extra server info</string>
-    <string name="pref_debug_adsdebug_title">Ads debug</string>
-    <string name="pref_debug_refresh_error_info_title">Display refresh error info</string>
-    <string name="pref_debug_refresh_error_info_descr">Display the cause of the error after the refresh on the server control screen</string>
-    <string name="pref_debug_refresh_error_send_title">Send refresh error info</string>
-    <string name="pref_debug_refresh_error_send_descr">Send the cause of the error after the refresh on the server control screen to the developer</string>
-    <string name="pref_debug_stacktrace_title">Stack trace</string>
-    <string name="pref_debug_stacktrace_descr">Show stack trace if app crashed</string>
-    <string name="pref_debug_backgrounddialog_title">Background crash dialog</string>
-    <string name="pref_debug_backgrounddialog_descr">Display a dialog when an error occurs in the background</string>
+    <string name="pref_debug_title">Depurar</string>
+    <string name="pref_debug_show_title">Configurações de depuração</string>
+    <string name="pref_debug_extrasrvinfo_title">Informações extras do servidor</string>
+    <string name="pref_debug_adsdebug_title">Depuração de anúncios</string>
+    <string name="pref_debug_refresh_error_info_title">Exibir informações de erro de atualização</string>
+    <string name="pref_debug_refresh_error_info_descr">Exibir a causa do erro após a atualização na tela de controle do servidor</string>
+    <string name="pref_debug_refresh_error_send_title">Enviar informações de erro de atualização</string>
+    <string name="pref_debug_refresh_error_send_descr">Acabar com a causa do erro após a atualização na tela de controle do servidor para o desenvolvedor</string>
+    <string name="pref_debug_stacktrace_title">Rastreamento de pilha</string>
+    <string name="pref_debug_stacktrace_descr">Mostrar rastreamento de pilha se o aplicativo travar</string>
+    <string name="pref_debug_backgrounddialog_title">Caixa de diálogo de falha em segundo plano</string>
+    <string name="pref_debug_backgrounddialog_descr">Exibir uma caixa de diálogo quando ocorrer um erro em segundo plano</string>
     <string name="pref_debug_remoteconfig_title" translatable="false">Remote Config</string>
-    <string name="pref_debug_remoteconfig_descr">Reduce fetching interval</string>
-    <string name="pref_debug_loglistener_title">Log listener</string>
-    <string name="pref_debug_loglistener_descr">Display debug messages in the log</string>
+    <string name="pref_debug_remoteconfig_descr">Reduzir intervalo de busca</string>
+    <string name="pref_debug_loglistener_title">Leitor de Logs</string>
+    <string name="pref_debug_loglistener_descr">Exibir mensagens de depuração no log</string>
 
 
     <!--About-->
-    <string name="about_debug_notify">Debug settings are available for use</string>
+    <string name="about_debug_notify">As configurações de depuração estão disponíveis para uso</string>
     <string name="about_description"><![CDATA[<strong>Translation authors:</strong><br>%1$s]]></string>
-    <string name="about_special1_name">Rate app</string>
+    <string name="about_special1_name">Avalie o aplicativo</string>
     <string name="about_special2_name" tools:ignore="MissingTranslation">@string/changelog_dialog_title_full</string>
-    <string name="about_special3_name">Improve translation</string>
+    <string name="about_special3_name">Melhore a tradução</string>
 
 
     <!--Other-->
-    <string name="error_nonetwork">Сould not connect to the network</string>
+    <string name="error_nonetwork">Não foi possível conectar à rede</string>
 </resources>
