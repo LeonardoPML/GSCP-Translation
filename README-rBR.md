@@ -2,7 +2,7 @@ Portugês (Brasil)
 # Game Server Constrol Panel - Traduções
 <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/logo.png?raw=true" width="200">
 
-Este repositório armazena o [GSCP](https://play.google.com/store/apps/details?id=ru.air.gscp "GSCP") arquivos de tradução.
+Este repositório armazena os arquivos de tradução do [GSCP](https://play.google.com/store/apps/details?id=ru.air.gscp "GSCP").
 
 ------------
 
