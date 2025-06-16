@@ -10,7 +10,6 @@
     <string name="action_mute">Mute</string>
     <string name="action_steam">Perfil Steam</string>
 
-
     <!--Server statuses-->
     <string name="status_unknown">Desconhecido</string>
     <string name="status_online">Online</string>
@@ -18,7 +17,6 @@
     <string name="status_restarting">Carregando/Reniciando</string>
     <string name="status_refreshing">Carregando…</string>
     <string name="status_error">Erro</string>
-
 
     <!--Server implementation-->
     <string name="game_goldsrc" translatable="false">GoldSource Engine</string>
@@ -601,7 +599,7 @@
     <string name="playerinfo_unknown" tools:ignore="MissingTranslation">@string/o_action_unknown</string>
     <string name="playerinfo_required">Obrigatório %1$s</string><!--SteamID2/SteamID3/SteamID64-->
     <string name="playerinfo_bansid">Steam ID banidos</string>
-    <string name="playerinfo_bansip">IPs Baidos</string>
+    <string name="playerinfo_bansip">IPs Banidos</string>
     <string name="playerinfo_mutes">Mutados</string>
     <string name="playerinfo_stats">Estatísticas do jogo</string>
     <string name="playerinfo_actions">Ações</string>
